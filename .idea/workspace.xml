@@ -24,8 +24,8 @@
       <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6043956">
-              <caret line="349" column="7" selection-start-line="349" selection-start-column="7" selection-end-line="349" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.64835167">
+              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,8 @@
       <file leaf-file-name="qyregiSter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qyregiSter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3606558">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="35" />
+            <state vertical-scroll-proportion="104.65574">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -66,7 +66,7 @@
       <file leaf-file-name="Login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.387096">
+            <state vertical-scroll-proportion="62.70968">
               <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
               <folding />
             </state>
@@ -84,8 +84,8 @@
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/jquery.validate.js" />
-        <option value="$PROJECT_DIR$/qyregiSter.html" />
         <option value="$PROJECT_DIR$/Login.html" />
+        <option value="$PROJECT_DIR$/qyregiSter.html" />
         <option value="$PROJECT_DIR$/register.html" />
       </list>
     </option>
@@ -316,26 +316,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Login.html">
+    <entry file="file://$PROJECT_DIR$/qyregiSter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.387096">
-          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+        <state vertical-scroll-proportion="104.65574">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qyregiSter.html">
+    <entry file="file://$PROJECT_DIR$/Login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3606558">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="35" />
+        <state vertical-scroll-proportion="62.70968">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6043956">
-          <caret line="349" column="7" selection-start-line="349" selection-start-column="7" selection-end-line="349" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.64835167">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding />
         </state>
       </provider>
