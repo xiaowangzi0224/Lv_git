@@ -35,9 +35,10 @@ button,#login_show  .item label{cursor: pointer;}
 .register_axy h2{height:30px;line-height: 30px;padding-left: 9px;color:#333;font-size: 14px;}
 .register_axy02{width:927px;height:474px;overflow: auto;}
 .register_axy02 h2{color:#333;font-size: 14px;line-height: 18px;padding-top: 22px;}
-.register_axy02 p{line-height: 18px;}
+.register_axy02 p,.register_axy02 .ty p{line-height: 18px;color:#666;font-size: 14px;}
+.register_axy02 .ty h3{color:#333;font-size: 14px;height: 54px;line-height: 54px;}
 .register_abtn{padding-top: 30px;text-align: center;}
-.register_abtn button{width: 400px;height: 54px;background: #ff5000; outline: none;  border: none;  text-align: center;  line-height: 54px; color: #fff;border-radius: 4px;}
+.register_abtn button{width: 400px;height: 54px;background: #ff5000; outline: none;  border: none;  text-align: center;  line-height: 54px; color: #fff;border-radius: 4px;font-size: 18px;}
 
 /*#footer样式区*/
 .foot {height:315px;width:100%;min-width:1200px;clear: both; background-color: #f6f6f6;}
