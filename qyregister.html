@@ -16,7 +16,7 @@
             </div>
             <div class="logo_r fr">
                 <a href="#">已有账号</a>
-                <a href="#">请登录</a>
+                <a href="Login.html">请登录</a>
             </div>
         </div>
     </div>
@@ -308,7 +308,7 @@
             </div>
         </div>
         <div class="register_abtn">
-            <button class="btn">同意并继续</button>
+            <button class="qrgStr_btn">同意并继续</button>
         </div>
 
 
@@ -316,5 +316,21 @@
 
 
 </div>
+
+<script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+<script src="js/jquery.validate.js" type="text/javascript"></script>
+<script>
+    $("#agreement").click(function(){
+        $("#register_agreement").show();
+    });
+    $(".qrgStr_btn").click(function(){
+        $("#ck").attr("checked", true);
+        $("#register_agreement").hide();
+    });
+
+
+
+
+</script>
 </body>
 </html>
