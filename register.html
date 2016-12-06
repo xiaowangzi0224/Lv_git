@@ -91,43 +91,43 @@
                             </div>
                     </div>
                     <div class="item">
-                        <label for="itxTtm">
+                        <label for="yzm">
                             <span class="label">
                                 <span style="color:red">*</span>
                                  验证码：
                             </span>
                         </label>
                             <div class="label_fl label_yz">
-                                <input type="text" id="itxTtm" class="itxt" placeholder="输入右侧的验证码">
+                                <input type="text" id="yzm" name="yzm" class="itxt" placeholder="输入右侧的验证码">
                                 <img title="换一换" src="images/registyzm.png"/>
                                 <p>看不清？点击图片更换验证码</p>
                             </div>
                     </div>
                     <div class="item">
-                        <label for="itxTsm">
+                        <label for="sjYzm">
                             <span class="label">
                                 <span style="color:red">*</span>
                                  手机验证码：
                             </span>
                         </label>
                             <div class="label_fl label_yz">
-                                <input type="text" id="itxTsm" class="itxt" placeholder="请输入手机验证码">
+                                <input type="text" id="sjYzm" name="sjYzm"  class="itxt" placeholder="请输入手机验证码">
                                 <button type="button" class="btn_phoneCode">获取验证码</button>
                                 <p>
-                                    无法接受验证码，
+                                    无法获取验证码，
                                     <a href="#">直接联系客服</a>
                                 </p>
                             </div>
                     </div>
                     <div class="item">
-                        <label for="itxTym">
+                        <label for="yqm">
                             <span class="label">
                                 <span style="color:red">*</span>
                                 邀请码：
                             </span>
                         </label>
                             <div class="label_fl">
-                                <input type="text" id="itxTym" class="itxt" placeholder="请输入邀请码">
+                                <input type="text" id="yqm" name="yqm" class="itxt" placeholder="请输入邀请码">
                                 <div class="login_xy">
                                     <input type="checkbox"  id="ck"  name="ck">
                                     <span>
@@ -291,7 +291,7 @@
             rules: {
                 username: {
                     required: true,
-                    rangelength:[2,18],
+                    rangelength:[2,18]
                 },
                 password: {
                     required: true,
@@ -306,6 +306,15 @@
                     required: true,
                     digits:true,
                     rangelength:[11,11]
+                },
+                yzm:{
+                    required:true
+                },
+                sjYzm:{
+                    required:true
+                },
+                yqm:{
+                    required:true
                 },
                 ck: {
                     required: true,
@@ -330,6 +339,15 @@
                     digits:"请输入一个正确的手机号",
                     rangelength:"请输入一个正确的手机号"
                 } ,
+                yzm:{
+                    required:"请输入右侧验证码"
+                },
+                sjYzm:{
+                    required:"请输入手机验证码"
+                },
+                yqm:{
+                    required:"请输入邀请码"
+                },
                 ck: ""
             }
         });
