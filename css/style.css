@@ -61,7 +61,6 @@
 /*注册成功页面*/
 #success_banner{height:665px;width:100%;min-width:1200px;background: url(../images/success_banner.jpg) no-repeat center;}
 #success_banner .success_shaow{position:relative;height:503px;width:798px;border: 1px solid #7199aa;top:80px;left: 200px;border-radius: 15px;box-shadow: 0 0 18px rgb(140,163,162);}
-/*.success_shaow img{position: relative;top: 50px; left: 312px;}*/
 .success_g{padding:50px 149px;}
 .success_g .success_img{text-align: center;margin-bottom: 36px;}
 .success_g  ul{text-align: center;height:96px;margin-bottom: 42px;}
@@ -70,3 +69,64 @@
 .success_an a:last-child{float: right;}
 .success_an a:hover{background: #ff5000;color:#fff;border: 1px solid #ff5000;}
 .success_g p{margin-bottom:85px;text-align: center;height:52px;line-height: 52px;color:#666;font-size: 18px;font-weight: bold;}
+
+/*主页*/
+#shortcut{width:100%;background-color: #e3e4e5;min-width:1200px;color: #666;height: 29px;border: 1px solid #ddd; line-height: 29px;}
+#shortcut .shortcut_l{
+    float:left;
+}
+#shortcut .shortcut_r{
+    float:right;
+}
+#shortcut li{
+    float: left;
+    height: 30px;
+    padding: 0 20px;
+}
+#shortcut #mycity{
+    padding-left: 0;
+}
+#shortcut .shop_cg{
+    position: relative;
+    float: left;
+}
+.cg-icon{
+    position: relative;
+    cursor: default;
+    zoom: 1;
+}
+.cg-icon i{
+    display: block;
+    position: absolute;
+}
+#shortcut .ci-right{
+    top:12px;
+    right:8px;
+    height:7px;
+    overflow: hidden;
+    font:400 15px/15px consolas;
+    color:#6A6A6A;
+    transition: transform .1s ease-in 0s;
+    -webkit-transition: -webkit-transform .1s ease-in 0s;
+}
+.ci-right s{
+    position: relative;
+    top: -7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#shortcut  .shortcut_cg{
+    padding: 0 25px 0 5px;
+}
+#shortcut li.spacer{
+    width: 1px;
+    height: 12px;
+    margin-top: 9px;
+    padding: 0;
+    background: #ddd;
+    overflow: hidden;
+}
+#shortcut li a,#shortcut li{
+    color:#333333;
+    font-size: 12px;
+}
