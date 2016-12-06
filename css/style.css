@@ -31,7 +31,8 @@
 #login_show  .login_xy input{vertical-align:middle;width:15px;height:15px;}
 #login_show  .login_xy span{color:#666;}
 #login_show  .login_xy a{color:#00afff;}
-.btn_register{width: 100%;height:50px;line-height:50px;background: #ff5000;color:#fff;font-size: 18px;text-align: center;border: none;outline:none;border-radius: 6px;}
+.btn_register{width: 100%;height:50px;line-height:50px;background: #ff5000;color:#fff;font-size: 18px;text-align: center;border: none;outline:none;border-radius: 6px;-webkit-border-radius:6px; -moz-border-radius:6px;position:relative;behavior:url(PIE.htc);
+}
 
 /*登录页面样式*/
 #login_banner{height:665px;width:100%;min-width:1200px;background: url("../images/login_banner.png") no-repeat center;}
@@ -53,7 +54,7 @@
 .login_remember .safe .lvCheckbox{vertical-align: middle;}
 .login_item03,.login_remember{margin-bottom: 20px;}
 .login_item03 .login_btn{margin: 0 auto;height:40px;width: 99%;text-align: center}
-.login_item03 .login_btn a{font-weight:bold;border-radius:3px;color: #fff;font-size: 18px;width:300px;height:40px;line-height:40px;display:block;background: #ff5000;}
+.login_item03 .login_btn a{font-weight:bold;position:relative;behavior:url(PIE.htc);border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;color: #fff;font-size: 18px;width:300px;height:40px;line-height:40px;display:block;background: #ff5000;}
 .login_zh02{float: right;}
 .login_zh02 a{color:#ff5000;font-size: 14px;}
 
