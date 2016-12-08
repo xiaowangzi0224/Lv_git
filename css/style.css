@@ -91,7 +91,6 @@
 .hotWords a{float: left;margin-right: 14px;font-size: 12px;color:#999;}
 .hotWords a:first-child,.hotWords a:hover{color:#ff5000;}
 #shortcut_banner{height: 525px;min-width:1200px;margin-bottom: 30px;}
-.shortcut_qb{}
 .shortcut_lm{height:35px;line-height:35px;}
 .shortcut_lm .fLe{height:35px;text-align:center;width:230px;background: #ff5000;}
 .shortcut_lm .fLe h3{color:#fff;font-size: 14px;font-weight: bold;}
@@ -103,7 +102,6 @@
 .shortcut_sjqR{width:200px; background:#e2bc9a;height:490px}
 .zy_bxt li{float: left;margin-right: 10px;}
 .zy_bxt li:last-child{margin-right: 0;}
-
 
 
 
