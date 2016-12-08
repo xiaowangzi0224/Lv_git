@@ -98,10 +98,35 @@
 .shortcut_lm .syXm .sy{width:74px;}
 .shortcut_sjq{height:490px;}
 .shortcut_sjqL{width:230px;background: #19f27a;height:490px}
-.shortcut_sjqC{width:770px; background:#f59595;height:490px}
-.shortcut_sjqR{width:200px; background:#e2bc9a;height:490px}
+
+.shortcut_sjqC{width:750px;padding: 0 10px;height:490px}
+.zy_bxt{margin-top: 10px;}
 .zy_bxt li{float: left;margin-right: 10px;}
 .zy_bxt li:last-child{margin-right: 0;}
 
+.shortcut_sjqR{width:200px; background:#e2bc9a;height:490px}
+.shortcut_sjqR2{height:120px;border-bottom:1px solid #e6e6e6;}
+.shortcut_sjqR02{padding: 15px 16px 20px;}
+.shortcut_sjqR02 .gr{height:60px;}
+.shortcut_sjqR02 .gr ul{float: left;}
+.shortcut_sjqR02 .gr ul li a{line-height:19px;color:#333;font-size: 12px;}
+.shortcut_sjqR02 .gr .dl li{float: left;}
+.shortcut_sjqR02 .gr .dl li:first-child{padding-right: 8px;}
+.shortcut_sjqR02 .fuLi ul li{float: left;width:70px;height:20px;text-align: center;border:2px solid #ff5000;background: #fff;}
+.shortcut_sjqR02 .fuLi ul li:last-child{float: right;}
+.shortcut_sjqR02 .fuLi a{color:#ff5000;font-size: 12px;line-height: 20px;}
 
 
+.shortcut_sjqR3{height:168px;padding: 0 5px;border-bottom:1px solid #e6e6e6;}
+.shortcut_sjqR3 .cx{height:27px;line-height:27px;border-bottom: 1px solid #e6e6e6}
+.shortcut_sjqR3 .cx ul{position: relative;}
+.shortcut_sjqR3 .cx ul .x{position: absolute;top:8px;left:52px;}
+.shortcut_sjqR3 .cx ul .x2{position: absolute;top:26px;left: 12px;}
+.shortcut_sjqR3 .cx ul li{float:left;width: 52px;text-align: center;}
+.shortcut_sjqR3 .cx ul .last{float: right;}
+.shortcut_sjqR3 .cx ul li a{color:#333;font-size: 12px;}
+.shortcut_sjqR3 .gg{padding-left: 14px;padding-top: 12px;}
+.shortcut_sjqR3 .gg ul li{line-height: 22px;}
+.shortcut_sjqR3 .gg ul li a{display:inline-block;font-size: 12px;color:#666;}
+.shortcut_sjqR3 .gg ul li a:hover{text-decoration:underline;color:#ff5000;}
+.shortcut_sjqR4{height: 200px;}
