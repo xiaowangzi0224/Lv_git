@@ -102,8 +102,7 @@
 .shortcut_sjqC{width:750px;padding: 0 10px;height:490px}
 .zy_bxt{margin-top: 10px;}
 .zy_bxt li{float: left;margin-right: 10px;}
-.zy_bxt li:last-child{margin-right: 0;}
-
+.zy_bxt .last{margin-right: 0;}
 .shortcut_sjqR{width:200px; background:#e2bc9a;height:490px}
 .shortcut_sjqR2{height:120px;border-bottom:1px solid #e6e6e6;}
 .shortcut_sjqR02{padding: 15px 16px 20px;}
@@ -113,10 +112,8 @@
 .shortcut_sjqR02 .gr .dl li{float: left;}
 .shortcut_sjqR02 .gr .dl li:first-child{padding-right: 8px;}
 .shortcut_sjqR02 .fuLi ul li{float: left;width:70px;height:20px;text-align: center;border:2px solid #ff5000;background: #fff;}
-.shortcut_sjqR02 .fuLi ul li:last-child{float: right;}
+.shortcut_sjqR02 .fuLi ul .last{float: right;}
 .shortcut_sjqR02 .fuLi a{color:#ff5000;font-size: 12px;line-height: 20px;}
-
-
 .shortcut_sjqR3{height:168px;padding: 0 5px;border-bottom:1px solid #e6e6e6;}
 .shortcut_sjqR3 .cx{height:27px;line-height:27px;border-bottom: 1px solid #e6e6e6}
 .shortcut_sjqR3 .cx ul{position: relative;}
