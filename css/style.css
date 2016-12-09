@@ -134,3 +134,18 @@
 .main_partner .partner{height:50px;line-height:50px;text-align:center;width: 100%;background: url(../images/zy_hzhb.png) no-repeat center;}
 .main_partner .partner h3{color:#fff;font-size: 18px;}
 .main_partner .partner_firm{padding: 20px 0 50px;}
+
+/*个人信息*/
+#personal_nav{height:80px;width: 100%;min-width: 1200px;background: #ff5000;}
+#personal_nav .shortcut_bloGo{padding-top: 22px;}
+
+
+
+
+.shortcut_search2{ height: 35px;line-height: 35px;width: 250px;background:#fff;position: absolute;top: 22px;right: 230px; }
+.shortcut_search2 input{background: #fff;text-indent:10px;border:none;outline: none;width: 200px;height:35px;}
+.shortcut_search2 button{width:50px;height:33px;background: #ff5000;border: none;outline: none;}
+.shortcut_shopping2{width:190px;height:35px;line-height:35px;background: #fff;position:absolute;right:10px;top:22px;}
+.shortcut_shopping2 img{padding-left: 37px;}
+.shortcut_shopping2 a{color:#ff5000;font-size: 12px;padding:0 14px 0 10px;}
+.shortcut_shopping2 i{position: absolute;behavior:url(PIE.htc);display: inline-block;padding: 1px;font-size: 12px;color: #fff;background-color: #ff5000;border-radius: 7px;min-width: 12px;text-align: center;line-height: 12px;top:8px;}
