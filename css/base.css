@@ -90,11 +90,45 @@ button,#login_show  .item label{cursor: pointer;}
 
 .gd{position: absolute;line-height:50px;color:#fff;font-size: 14px;right: 10px;}
 .gd img{padding-left: 10px;}
+
 .main_object{height:728px;}
 .main_obj .first{margin: 10px 0 20px 0;}
-.main_obj ul li{float: left;width: 230px;background: #fff;height:324px;margin-right: 12px;}
+.main_obj ul li{padding: 10px;float: left;width: 210px;background: #fff;height:304px;margin-right: 12px;}
+.main_obj ul li a{display: inline-block}
+.main_obj ul li h3{color:#ff5000;font-size: 16px;height: 23px;line-height: 23px;padding-top: 5px;}
+.main_obj ul li h3 span{font-size: 14px;}
+.main_obj ul li p{font-size: 12px;color:#333;line-height: 18px;}
 .main_obj ul .last{margin-right: 0;}
+/*加入购物车*/
+/*.good-car{margin-top: 6px;}*/
 
+/*.good-car a{float: left;}*/
+/*/!*显示加入购物车的数量*!/*/
+/*.good-car-num{*/
+    /*width:28px;*/
+    /*height: 22px;*/
+    /*line-height: 22px;*/
+    /*text-align: center;*/
+    /*border: 1px solid #ccc;*/
+/*}*/
+/*.good-car-btn{*/
+    /*width: 20px;*/
+    /*height:24px;*/
+/*}*/
+/*/!*点击增加减少商品按钮*!/*/
+/*.good-car-btn span{*/
+    /*display: block;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+/*}*/
+/*/!*点击商品数量+1*!/*/
+/*.good-detail-add{*/
+    /*background: url(../img/goodDetail/detail-icon.png) no-repeat -230px -310px;*/
+/*}*/
+/*/!*点击商品数量-1*!/*/
+/*.good-detail-sub{*/
+    /*background: url(../img/goodDetail/detail-icon.png) no-repeat -230px -330px;*/
+/*}*/
 
 
 
