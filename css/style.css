@@ -139,13 +139,28 @@
 #personal_nav{height:80px;width: 100%;min-width: 1200px;background: #ff5000;}
 #personal_nav .shortcut_bloGo{padding-top: 22px;}
 
-
-
-
 .shortcut_search2{ height: 35px;line-height: 35px;width: 250px;background:#fff;position: absolute;top: 22px;right: 230px; }
 .shortcut_search2 input{background: #fff;text-indent:10px;border:none;outline: none;width: 200px;height:35px;}
-.shortcut_search2 button{width:50px;height:33px;background: #ff5000;border: none;outline: none;}
+.shortcut_search2 button{width:50px;height:33px;background: #f7f7f7;border: none;outline: none;}
 .shortcut_shopping2{width:190px;height:35px;line-height:35px;background: #fff;position:absolute;right:10px;top:22px;}
 .shortcut_shopping2 img{padding-left: 37px;}
 .shortcut_shopping2 a{color:#ff5000;font-size: 12px;padding:0 14px 0 10px;}
 .shortcut_shopping2 i{position: absolute;behavior:url(PIE.htc);display: inline-block;padding: 1px;font-size: 12px;color: #fff;background-color: #ff5000;border-radius: 7px;min-width: 12px;text-align: center;line-height: 12px;top:8px;}
+
+#personal_main{height:751px;width: 100%;min-width: 1200px;}
+.personal_main{padding-top: 20px;}
+.personal_mainL{height:593px;padding-top:10px;width:150px;background: #fff;text-align:center;}
+.personal_mainL dl{padding-bottom:18px;position: relative;}
+.personal_mainL dl:before{position: absolute;content: "";width: 3px;height: 12px;top: 9px;left: 21px;background: #ff5000;}
+.personal_mainL dl .f5,.personal_mainL dl dd:hover{background: #ff5000;}
+.personal_mainL dl .f5 a,.personal_mainL dl dd a:hover{color:#fff;}
+.personal_mainL dt{height:32px;line-height: 32px; }
+.personal_mainL dd{height:31px;line-height: 31px; }
+.personal_mainL dt a{color:#333;font-size:14px;font-weight: bold; }
+.personal_mainL dd a{color:#666;font-size: 12px;}
+.personal_mainR{height:731px;width:auto;}
+
+
+
+
+
