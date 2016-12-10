@@ -85,12 +85,73 @@
                     <dd><a href="#">收货地址</a></dd>
                     <dd><a href="#">增票资质</a></dd>
                 </dl>
-
             </div>
-            <div class="personal_mainR fr">
-
+            <div class="personal_mainR fl">
+                <div class="personal_mainR1">
+                    <div class="span">
+                        <span>个人信息</span>
+                    </div>
+                    <div class="tx">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <form action="" method="post" id=personalForm>
+                                <tr class="first">
+                                    <td class="upload fl">头像:</td>
+                                    <td><a href="#" class="upload-file"><input type="file" name="file_upload" id="file_upload"></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="upload fl">用户名：</td>
+                                    <td><input id="user_name" type="text"  class="user_name"></td>
+                                </tr>
+                                <tr>
+                                    <td class="upload fl">昵称：</td>
+                                    <td><input id="name" type="text"  class="name"></td>
+                                </tr>
+                                <tr>
+                                    <td class="upload fl"><span style="color:red;padding-right: 10px;">*</span>真实姓名：</td>
+                                    <td><input id="myName" type="text"  class="myName"></td>
+                                </tr>
+                                <tr>
+                                    <td class="upload fl">性别：</td>
+                                    <td>
+                                        <label><input name="sex" type="radio" value="1" /> 男</label>
+                                        <label><input name="sex" type="radio" value="0" /> 女</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="upload fl">生日：</td>
+                                    <td>
+                                        <select name="year" class="sr">
+                                        <script type="text/javascript">
+                                            for(var i=1900;i<=2020;i++){
+                                                document.write("<option value="+i+">"+i+"</option>");
+                                            }
+                                        </script>
+                                    </select>年
+                                        <select name="month" class="sr">
+                                            <script type="text/javascript">
+                                                for(var i=1;i<=12;i++){
+                                                    document.write("<option value="+i+">"+i+"</option>");
+                                                }
+                                            </script>
+                                        </select>月
+                                        <select name="day" class="sr">
+                                            <script type="text/javascript">
+                                                for(var i=1;i<=31;i++){
+                                                    document.write("<option value="+i+">"+i+"</option>");
+                                                }
+                                            </script>
+                                        </select>日</td>
+                                </tr>
+                                <tr >
+                                    <td>&nbsp;</td>
+                                    <td style="padding-top:50px;"><input name="btn" type="submit" value="确定保存" class="rb1" /></td>
+                                </tr>
+                            </form>
+                        </table>
+                    </div>
+                </div>
+                <div class="tx2 fr"></div>
             </div>
-
         </div>
     </div>
 </div>
