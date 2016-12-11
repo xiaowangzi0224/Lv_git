@@ -166,27 +166,23 @@
 .personal_mainR1 .tx{padding: 50px 0 0 31px;}
 
 
-.upload{
-    text-align:right;
-    width:76px;
-    font-size: 12px;
-    color: #666;
-}
-.tx .first{height:144px;}
-.upload-file{
-    display: block;
-    width: 118px;
-    height:118px;
-    background: #ffeee5;
-    border: 1px solid #ff5000;
-}
-.upload-file input{
-    width: 118px;
-    height: 118px;
-    opacity: 0;
-    cursor: pointer;
-}
-.sr{width: 88px;height: 28px;}
+.upload{padding-right:14px;color: #666;text-align:right;width:76px;font-size: 12px;}
+.upload-file{display: block;width: 118px;height:118px;background: #ffeee5;border: 1px solid #ff5000;}
+.upload-file input{ width: 118px; height: 118px;opacity: 0; cursor: pointer;outline: none;}
+.tx .dis01{display: block;padding-bottom: 40px;}
+.tx .first{height:144px;padding-bottom:25px;}
+.tx .sr{width: 88px;height: 28px;}
+.tx .dis{outline: none;width:248px;height:28px;}
+.tx .xb{padding-right: 35px;}
+.tx .rb1{width:120px;height:40px;background: #ff5000;color:#fff;outline: none;border: none;}
+
+
+
+
+
+
+
+
 
 
 
