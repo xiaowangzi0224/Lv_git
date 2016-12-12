@@ -210,4 +210,8 @@
 .set_password .set_Password4 .kbq a span{color:#005ea7;}
 .set_password .set_Password4 .xyb{width:187px;height:40px;background:#ff5000;line-height: 40px;text-align: center}
 
+.win{width: 322px;text-align:center;height:188px;border: 1px solid red;padding: 61px 140px 0;}
+.win ul li{float:left;}
+.win ul .last{height: 50px;line-height: 50px;padding-left: 10px;}
+
 
