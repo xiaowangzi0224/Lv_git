@@ -2,10 +2,11 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>个人信息</title>
+    <title>账户安全</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
+        .personal_mainR{background: none;}
         .foot{background: #fff;}
     </style>
 </head>
@@ -81,120 +82,43 @@
                 </dl>
                 <dl>
                     <dt><a href="#">个人设置</a></dt>
-                    <dd class="f5"><a href="#">个人信息</a></dd>
-                    <dd><a href="safety.html">账户安全</a></dd>
+                    <dd><a href="personal.html">个人信息</a></dd>
+                    <dd class="f5"><a href="#">账户安全</a></dd>
                     <dd><a href="#">收货地址</a></dd>
                     <dd><a href="#">增票资质</a></dd>
                 </dl>
             </div>
             <div class="personal_mainR fl">
                 <div class="personal_mainR1">
-                    <div class="span">
-                        <span>个人信息</span>
-                    </div>
-                    <div class="tx">
-                        <form action="" method="post" id=personalForm>
-                            <ul class="yh">
-                                <li>
-                                    <ul class="fd">
-                                        <li class="first">头像:</li>
-                                        <li><input type="text" name="file" id="file"></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="yh2">
-                                <li>
-                                    <ul class="fd">
-                                        <li class="first">用户名：</li>
-                                        <li>ai小王子</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="yh2">
-                                <li>
-                                    <ul class="fd">
-                                        <li class="first">昵称：</li>
-                                        <li><input id="name" type="text"  class="name"></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="yh2">
-                                <li>
-                                    <ul class="fd">
-                                        <li class="first"><span style="color:red;padding-right: 10px;">*</span>真实姓名：</li>
-                                        <li><input id="myName" type="text"  class="myName"></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="yh2">
-                                <li>
-                                    <ul class="fd">
-                                        <li class="first"><span style="color:red;padding-right: 10px;">*</span>性别：</li>
-                                        <li>
-                                            <label class="xb"><input name="sex" type="radio" value="1" /> 男</label>
-                                            <label><input name="sex" type="radio" value="0" /> 女</label>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="yh2">
-                                <li>
-                                    <ul class="fd">
-                                        <li class="first">生日：</li>
-                                        <li>
-                                            <select name="year" class="sr">
-                                                <script type="text/javascript">
-                                                    for(var i=1919;i<=2020;i++){
-                                                        document.write("<option value="+i+">"+i+"</option>");
-                                                    }
-                                                </script>
-                                            </select>年
-                                            <select name="month" class="sr">
-                                                <script type="text/javascript">
-                                                    for(var i=1;i<=12;i++){
-                                                        document.write("<option value="+i+">"+i+"</option>");
-                                                    }
-                                                </script>
-                                            </select>月
-                                            <select name="day" class="sr">
-                                                <script type="text/javascript">
-                                                    for(var i=1;i<=31;i++){
-                                                        document.write("<option value="+i+">"+i+"</option>");
-                                                    }
-                                                </script>
-                                            </select>日
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="yh2">
-                                <li>
-                                    <ul class="fd">
-                                        <li class="first">&nbsp;</li>
-                                        <li><input name="btn" type="submit" value="确定保存" class="rb" /></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </form>
-                        <div class="tx2">
-                            <ul>
-                                <li><a href="#"><img src="images/person_xsj.png"width="10" height="16"> </a></li>
-                                <li><a href="#"><img src="images/person_fgx.jpg" width="2" height="17"></a></li>
-                                <li><a href="#">手机（已绑定）</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><img src="images/person_xyx.png"width="12" height="11"> </a></li>
-                                <li><a href="#"><img src="images/person_fgx.jpg" width="2" height="17"></a></li>
-                                <li><a href="#">手机（已绑定）</a></li>
-                            </ul>
-                            <a href="#" class="bd">立即绑定</a>
-                            <p>注：修改密码、手机等信息请到 <a href="#">安全设置</a></p>
+                    <div class="personal_mainR1">
+                        <div class="span">
+                            <span>安全中心</span>
                         </div>
-                    </div>
+                        <div class="safe">
+                            <ul>
+                                <li class="first"><img src="images/safety_gg.png"> </li>
+                                <li class="safe_02 ">登录密码</li>
+                                <li class="safe_03 ">互联网账号存在被盗风险，建议您定期更改密码以保护账户安全。</li>
+                                <li class="safe_04"><a href="#" class="xg">修改</a></li>
+                            </ul>
+                            <ul>
+                                <li class="first"><img src="images/safety_jg.png"></li>
+                                <li class="safe_02 ">支付密码</li>
+                                <li class="safe_03 "><a href="#" class="wkq"> 未开启</a></li>
+                                <li class="safe_04"><a href="set_Password.html" class="sz">设置支付密码</a></li>
+                            </ul>
+                            <ul style="border-bottom: none;">
+                                <li class="first"><img src="images/safety_gg.png"> </li>
+                                <li class="safe_02 ">手机验证</li>
+                                <li class="safe_03 ">您验证的手机： <span>123*****456</span>若已丢失或停用，请立即更换，<a href="#" class="wkq">避免账户被盗。</a></li>
+                                <li class="safe_04"><a href="#" class="xg">修改</a></li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <footer class="foot">
     <div class="inner">
@@ -288,5 +212,6 @@
         </div>
     </div>
 </footer>
+
 </body>
 </html>

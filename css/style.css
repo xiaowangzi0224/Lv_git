@@ -138,7 +138,6 @@
 /*个人信息*/
 #personal_nav{height:80px;width: 100%;min-width: 1200px;background: #ff5000;}
 #personal_nav .shortcut_bloGo{padding-top: 22px;}
-
 .shortcut_search2{ height: 35px;line-height: 35px;width: 250px;background:#fff;position: absolute;top: 22px;right: 230px; }
 .shortcut_search2 input{background: #fff;text-indent:10px;border:none;outline: none;width: 200px;height:35px;}
 .shortcut_search2 button{width:50px;height:33px;background: #f7f7f7;border: none;outline: none;}
@@ -146,8 +145,7 @@
 .shortcut_shopping2 img{padding-left: 37px;}
 .shortcut_shopping2 a{color:#ff5000;font-size: 12px;padding:0 14px 0 10px;}
 .shortcut_shopping2 i{position: absolute;behavior:url(PIE.htc);display: inline-block;padding: 1px;font-size: 12px;color: #fff;background-color: #ff5000;border-radius: 7px;min-width: 12px;text-align: center;line-height: 12px;top:8px;}
-
-#personal_main{height:751px;width: 100%;min-width: 1200px;}
+#personal_main{height:752px;width: 100%;min-width: 1200px;}
 .personal_main{padding-top: 20px;}
 .personal_mainL{height:593px;padding-top:10px;width:150px;background: #fff;text-align:center;}
 .personal_mainL dl{padding-bottom:18px;position: relative;}
@@ -158,34 +156,58 @@
 .personal_mainL dl .f5 a,.personal_mainL dl dd a:hover{color:#fff;}
 .personal_mainL dt a{color:#333;font-size:14px;font-weight: bold; }
 .personal_mainL dd a{color:#666;font-size: 12px;}
-.personal_mainR{height:731px;width: 1050px;}
-.personal_mainR1{padding: 20px 0 0 40px;}
+.personal_mainR{height:654px;width:991px;padding: 20px 0 0 20px;background: #fff;margin-left: 20px;}
 .personal_mainR1 .span{position:relative;width: 90px;height:31px;border-right: 1px solid #ccc;border-top: 1px solid #ccc;border-left: 1px solid #ccc;text-align: center;}
-.personal_mainR1 .span:before{position: absolute;content: ""; width:900px;height: 1px;top:30px;left:90px;background: #ccc;}
+.personal_mainR1 .span:before{position: absolute;content: ""; width:880px;height: 1px;top:30px;left:90px;background: #ccc;}
 .personal_mainR1 .span span{color:#ff5000;font-size: 12px;line-height: 31px;}
-.personal_mainR1 .tx{padding: 50px 0 0 31px;}
+.personal_mainR1 .tx{padding: 50px 0 0 31px;position: relative;}
+.personal_mainR1 .tx .tx2{position: absolute;top:50px;right:187px;}
+.tx .tx2 ul{height:19px;line-height: 19px;padding-bottom: 15px;}
+.tx .tx2 ul li{float: left;padding-right: 14px;}
+.tx .tx2 ul li a{color:#666;font-size: 12px;}
+.tx .tx2 .bd{display: block;text-align:center;width: 80px;line-height:30px;height:30px;background: #Ff5000;color:#fff;font-size: 12px;}
+.tx .tx2 p{height:33px;line-height: 33px;color:#666;font-size: 12px;}
+.tx .tx2 p a{color:#0066cc;}
+.tx .yh{height:140px;padding-bottom:25px;}
+.yh .fd li,.yh2 .fd li{float:left;font-size: 12px;color: #666;}
+.yh .fd .first,.yh2 .fd .first{padding-right:14px;text-align:right;width:76px;}
+.yh .fd  input{background: #ffeee5;border: 1px solid #ff5000;width: 118px; height: 118px; cursor: pointer;outline: none;}
+.yh2{height:32px;padding-bottom:35px;}
+.yh2 .fd input{outline: none;width:248px;height:28px;}
+.yh2 .fd .xb{padding-right: 30px;}
+.yh2 .fd label input{width:14px;height: 14px;}
+.yh2 .fd .sr{width: 88px;height: 28px;}
+.yh2 .fd .rb{width:120px;height:40px;background: #ff5000;color:#fff;outline: none;border: none;}
 
-
-.upload{padding-right:14px;color: #666;text-align:right;width:76px;font-size: 12px;}
-.upload-file{display: block;width: 118px;height:118px;background: #ffeee5;border: 1px solid #ff5000;}
-.upload-file input{ width: 118px; height: 118px;opacity: 0; cursor: pointer;outline: none;}
-.tx .dis01{display: block;padding-bottom: 40px;}
-.tx .first{height:144px;padding-bottom:25px;}
-.tx .sr{width: 88px;height: 28px;}
-.tx .dis{outline: none;width:248px;height:28px;}
-.tx .xb{padding-right: 35px;}
-.tx .rb1{width:120px;height:40px;background: #ff5000;color:#fff;outline: none;border: none;}
-
-
-
-
-
-
-
-
-
-
-
-
+/*账户安全中心*/
+.safe{height:278px;width: 930px;border-bottom: 1px solid #e6e6e6;background: #fff;margin-top: 50px;margin-left: 30px}
+.safe .wkq{color:#ff0000;}
+.safe .xg{color:#005ea7;}
+.safe .sz,.safe .xg:hover{height:30px;line-height:30px;margin-top: 30px;width: 100px;background: #ff5000;color:#fff;display: block;}
+.safe ul{height:91px;border-bottom: 1px solid #e6e6e6;}
+.safe ul li{float:left;font-size: 12px;line-height:90px;}
+.safe ul .first{width: 27px;padding-left: 50px;}
+.safe ul .safe_02{width:107px;padding-left: 16px;}
+.safe ul .safe_03{width:560px;padding-left: 20px;}
+.safe ul .safe_04{width: 100px;text-align: center;}
+.set_password{margin: 50px 0 0 190px;height:383px;}
+.set_password .jiaJ,.set_password .jiaJ2{margin-bottom: 39px;font-size: 14px;color:#666;}
+.set_password .jiaJ2{margin-bottom: 50px;}
+.set_password .set_password2 li{float: left;}
+.set_password .set_password2 .first{margin-right:19px;width: 162px;text-align: right;}
+.set_password .set_Password2{height:32px;line-height: 32px;}
+.set_password .set_Password3{height:68px;line-height: 36px;}
+.set_password .set_Password4{height:36px;line-height: 36px;}
+.set_password .set_Password3 .kug,.set_password .set_Password4 .kug{width: 185px;height:36px;border: 1px solid #ccc;}
+.set_password .set_Password3 .kug input,.set_password .set_Password4 .kug input{width: 185px;height:34px;border: none;outline: none;}
+.set_password .set_Password3 .hq_yzm,.set_password .set_Password4 .hq_yzm2{margin-left:14px;width:128px;height:36px;background: #ff5000;text-align: center;}
+.set_password .set_Password3 .hq_yzm a,.set_password .set_Password4 .xyb a{color:#fff;}
+.set_password .set_Password4 .hq_yzm2{width: 100px;background: none;}
+.set_password .set_Password3 .dwp{position: relative;}
+.set_password .set_Password3 .dwp p{position: absolute;top: 36px;left: 182px;height: 34px;line-height: 34px;}
+.set_password .set_Password4 .kbq{padding-left: 6px;}
+.set_password .set_Password4 .kbq a{font-size: 12px;color:#666;}
+.set_password .set_Password4 .kbq a span{color:#005ea7;}
+.set_password .set_Password4 .xyb{width:187px;height:40px;background:#ff5000;line-height: 40px;text-align: center}
 
 
