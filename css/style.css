@@ -223,3 +223,4 @@
 .personal_mainR .proFile2 span{color:#ff5000;}
 
 #newly_site{position:fixed;left:0;top:0;width:100%;height:100%;display:none;z-index:100;background: url(../images/zhezhao.png)}
+#newly_site .newly{width:668px;height:511px;border: 1px solid #b4b4b4;}
