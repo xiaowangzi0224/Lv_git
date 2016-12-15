@@ -240,9 +240,6 @@
 .proFile .address .addSsb .item-rol a{color: #005ea7;padding-left: 10px;}
 .proFile .address .addSsb .item-rol a:hover{color:#ff5000;}
 
-
-
-
 /*地址收货地址弹窗页面样式*/
 .tc{height:511px;width:668px;top:250px;left:24%;background:#fff;border:1px solid #b4b4b4;position: absolute;z-index: 10000;overflow: hidden;}
 .tc .tc_bt{ position:relative;padding:0 20px;height:55px;line-height:55px;font-size:16px;color:#333;}
