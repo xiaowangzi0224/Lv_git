@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>收货地址</title>
+    <title>增票资质</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
@@ -28,6 +28,13 @@
             height: 100%;
             background: url(images/zhezhao.png) left top;
             display: none;
+        }
+        .personal_mainR .proFile2 .first{
+            margin: 0 15px;
+
+        }
+        .personal_mainR .proFile2 span{
+            color:#ff0000;
         }
     </style>
 </head>
@@ -106,100 +113,80 @@
                     <dt><a href="#">个人设置</a></dt>
                     <dd><a href="personal.html">个人信息</a></dd>
                     <dd><a href="safety.html">账户安全</a></dd>
-                    <dd class="f5"><a href="Profile.html">收货地址</a></dd>
-                    <dd><a href="inVoice.html">增票资质</a></dd>
+                    <dd><a href="Profile.html">收货地址</a></dd>
+                    <dd class="f5"><a href="#">增票资质</a></dd>
                 </dl>
             </div>
             <div class="personal_mainR fl">
                 <div class="personal_mainR1">
                     <div class="span">
-                        <span>收货地址</span>
+                        <span>增票资质</span>
                     </div>
 
                 </div>
                 <div class="proFile">
                     <ul class="proFile2">
-                        <li class="first"><a href="#" id="newly">新增收货地址</a></li>
-                        <li>您已创建<span class="tj">0</span>个收货地址，最多可创建<span>50</span>个</li>
+                        <li>您还未添加增票资质</li>
+                        <li class="first"><a href="#" id="newly">现在添加</a></li>
+                        <li><span class="tj">注意：有效增值税发票开票资质仅为一个。</span></li>
                     </ul>
-                    <div class="address">
-                       <div class="addSst">
-                           <h3>岳飞<a href="#"></a><span>默认地址</span></h3>
-                           <div class="extra">
-                               <a href="#" class="del_btn"></a>
-                           </div>
-                       </div>
-                       <div class="addSsb">
-                           <div class="item-lol fl">
-                               <div class="item">
-                                   <span class="label fl">收货人：</span>
-                                   <div class="fl label2">岳飞</div>
-                                   <div class="clear"></div>
-                               </div>
-                               <div class="item">
-                                   <span class="label fl">所在地区：</span>
-                                   <div class="fl label2">北京 北京市 朝阳区</div>
-                                   <div class="clear"></div>
-                               </div>
-                               <div class="item">
-                                   <span class="label fl">详细地区：</span>
-                                   <div class="fl label2">亦庄经济技术开发区 地盛南街甲一号院 中电金扬科技园 </div>
-                                   <div class="clear"></div>
-                               </div>
-                               <div class="item">
-                                   <span class="label fl">手机号：</span>
-                                   <div class="fl label2">12345678900</div>
-                                   <div class="clear"></div>
-                               </div>
-                           </div>
-                           <div class="item-rol fr">
-                               <a href="#" style="display: none;">设为默认</a>
-                               <a class="compile" href="#">编辑</a>
 
-                           </div>
-                           <div class="clear"></div>
-                       </div>
+                    <form action="" method="post" id=personalForm>
+                        <ul class="invoice">
+                            <li class="voice">
+                                <ul class="fd">
+                                    <li class="first"><span style="color:red;padding-right: 10px;">*</span>单位名称：</li>
+                                    <li class="last"><input  type="text"></li>
+                                </ul>
+                            </li>
 
-                    </div>
-                    <div class="address">
-                        <div class="addSst">
-                            <h3>岳飞<a href="#"></a><span style="display: none;">默认地址</span></h3>
-                            <div class="extra">
-                                <a href="#" class="del_btn"></a>
-                            </div>
-                        </div>
-                        <div class="addSsb">
-                            <div class="item-lol fl">
-                                <div class="item">
-                                    <span class="label fl">收货人：</span>
-                                    <div class="fl label2">岳飞</div>
-                                    <div class="clear"></div>
-                                </div>
-                                <div class="item">
-                                    <span class="label fl">所在地区：</span>
-                                    <div class="fl label2">北京 北京市 朝阳区</div>
-                                    <div class="clear"></div>
-                                </div>
-                                <div class="item">
-                                    <span class="label fl">详细地区：</span>
-                                    <div class="fl label2">亦庄经济技术开发区 地盛南街甲一号院 中电金扬科技园 </div>
-                                    <div class="clear"></div>
-                                </div>
-                                <div class="item">
-                                    <span class="label fl">手机号：</span>
-                                    <div class="fl label2">12345678900</div>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-                            <div class="item-rol fr">
-                                <a href="#">设为默认</a>
-                                <a class="compile" href="#">编辑</a>
+                            <li class="voice">
+                                <ul class="fd">
+                                    <li class="first"><span style="color:red;padding-right: 10px;">*</span>纳税人识别码：</li>
+                                    <li class="last"><input  type="text"></li>
+                                </ul>
+                            </li>
 
-                            </div>
-                            <div class="clear"></div>
-                        </div>
+                            <li class="voice">
+                                <ul class="fd">
+                                    <li class="first"><span style="color:red;padding-right: 10px;">*</span>注册地址：</li>
+                                    <li class="last"><input  type="text"></li>
+                                </ul>
+                            </li>
 
-                    </div>
+                            <li class="voice">
+                                <ul class="fd">
+                                    <li class="first"><span style="color:red;padding-right: 10px;">*</span>注册电话：</li>
+                                    <li class="last"><input  type="text"></li>
+                                </ul>
+                            </li>
+
+                            <li class="voice">
+                                <ul class="fd">
+                                    <li class="first"><span style="color:red;padding-right: 10px;">*</span>开户银行：</li>
+                                    <li class="last"><input  type="text"></li>
+                                </ul>
+                            </li>
+
+                            <li class="voice">
+                                <ul class="fd">
+                                    <li class="first"><span style="color:red;padding-right: 10px;">*</span>银行账户：</li>
+                                    <li class="last"><input  type="text"></li>
+                                </ul>
+                            </li>
+                            <li class="voice">
+                                <ul class="fd">
+                                    <li class="first"><span style="color:red;padding-right: 10px;">*</span>营业执照：</li>
+                                    <li class="last2"><input type="text" name="file" id="file" value="点击上传"></li>
+                                </ul>
+                            </li>
+
+
+
+                        </ul>
+
+                    </form>
+
                 </div>
             </div>
         </div>
@@ -470,8 +457,8 @@
         $(".bj_add").show();
     });
     $(".close").click(function(){
-           $(".bj_add").hide();
-       });
+        $(".bj_add").hide();
+    });
     $(".compile").click(function () {
         $(".bj_compile").show();
     })
@@ -487,7 +474,5 @@
     })
 
 </script>
-
-
 </body>
 </html>
