@@ -190,6 +190,8 @@
 .safe ul .safe_02{width:107px;padding-left: 16px;}
 .safe ul .safe_03{width:560px;padding-left: 20px;}
 .safe ul .safe_04{width: 100px;text-align: center;}
+.personal_mainR .safe{position: relative;}
+.personal_mainR .safe .safe_02 img{position: absolute;top:27px;left:180px;}
 .set_password{margin: 50px 0 0 190px;height:383px;}
 .set_password .jiaJ,.set_password .jiaJ2{margin-bottom: 39px;font-size: 14px;color:#666;}
 .set_password .jiaJ2{margin-bottom: 50px;}
@@ -236,8 +238,6 @@
 .proFile .address .addSsb .item-lol .label2 {width: 530px;}
 .proFile .address .addSsb .item-rol{position: absolute;  right: 0;top: 75px;}
 .proFile .address .addSsb .item-rol a{color: #005ea7;padding-left: 10px;}
-
-
 .proFile .address .addSsb .item-rol a:hover{color:#ff5000;}
 
 
@@ -259,7 +259,7 @@
 .tc .tc_nr .from .save li{cursor:pointer;float: left;width:100px;height:30px;line-height: 30px;font-size: 14px;color:#fff;background: #ff5000;}
 .tc .tc_nr .from .save .first{margin: 0 20px 0 205px;background: #e6e6e6;color:#666;}
 .from .item:after{ content: ".";display: block;height: 0;clear: both; visibility: hidden;}
-.tc .close,.tc .close2{position: absolute;width: 20px;background: url(../images/shanc.png) no-repeat;height:20px;font-size: 0;cursor:pointer;top: 17px;right: 20px;display: block;overflow: hidden;}
+.tc .close,.tc .close2,.tc .close3{position: absolute;width: 20px;background: url(../images/shanc.png) no-repeat;height:20px;font-size: 0;cursor:pointer;top: 17px;right: 20px;display: block;overflow: hidden;}
 
 
 
