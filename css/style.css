@@ -156,7 +156,7 @@
 .personal_mainL dl .f5 a,.personal_mainL dl dd a:hover{color:#fff;}
 .personal_mainL dt a{color:#333;font-size:14px;font-weight: bold; }
 .personal_mainL dd a{color:#666;font-size: 12px;}
-.personal_mainR{height:654px;width:991px;padding: 20px 0 0 20px;background: #fff;margin-left: 20px;}
+.personal_mainR,.personal_mainR2{height:654px;width:981px;padding: 20px 10px 0 20px;background: #fff;margin-left: 20px;}
 .personal_mainR1 .span{position:relative;width: 90px;height:31px;border-right: 1px solid #ccc;border-top: 1px solid #ccc;border-left: 1px solid #ccc;text-align: center;}
 .personal_mainR1 .span:before{position: absolute;content: ""; width:880px;height: 1px;top:30px;left:90px;background: #ccc;}
 .personal_mainR1 .span span{color:#ff5000;font-size: 12px;line-height: 31px;}
@@ -217,9 +217,9 @@
 .win .wc a{color:#fff;font-size: 12px;}
 .win ul li{float:left;}
 .win ul .last{height: 50px;line-height: 50px;padding-left:35px;color: #666;font-size: 18px;}
-.personal_mainR .proFile{padding-top: 20px;padding-left: 19px;}
-.personal_mainR .proFile2{height:30px;line-height: 30px;padding: 10px 0;}
-.personal_mainR .proFile2 li{float: left;font-size: 12px; color:#666;}
+.personal_mainR .proFile,.personal_mainR2 .proFile{padding-top: 20px;padding-left: 19px;}
+.personal_mainR .proFile2,.personal_mainR2 .proFile2{height:30px;line-height: 30px;padding: 10px 0;}
+.personal_mainR .proFile2 li,.personal_mainR2 .proFile2 li{float: left;font-size: 12px; color:#666;}
 .personal_mainR .proFile2 .first{margin-right:12px;width:115px;height:30px;background: #ff5000;text-align: center}
 .personal_mainR .proFile2 .first a{color:#fff;font-size: 12px;}
 .personal_mainR .proFile2 span{color:#ff5000;}
@@ -240,6 +240,9 @@
 .proFile .address .addSsb .item-rol a{color: #005ea7;padding-left: 10px;}
 .proFile .address .addSsb .item-rol a:hover{color:#ff5000;}
 
+
+
+
 /*地址收货地址弹窗页面样式*/
 .tc{height:511px;width:668px;top:250px;left:24%;background:#fff;border:1px solid #b4b4b4;position: absolute;z-index: 10000;overflow: hidden;}
 .tc .tc_bt{ position:relative;padding:0 20px;height:55px;line-height:55px;font-size:16px;color:#333;}
@@ -256,7 +259,7 @@
 .tc .tc_nr .from .save li{cursor:pointer;float: left;width:100px;height:30px;line-height: 30px;font-size: 14px;color:#fff;background: #ff5000;}
 .tc .tc_nr .from .save .first{margin: 0 20px 0 205px;background: #e6e6e6;color:#666;}
 .from .item:after{ content: ".";display: block;height: 0;clear: both; visibility: hidden;}
-.tc .close,.tc .close2,.tc .close3{position: absolute;width: 20px;background: url(../images/shanc.png) no-repeat;height:20px;font-size: 0;cursor:pointer;top: 17px;right: 20px;display: block;overflow: hidden;}
+.tc .close,.tc .close2,.tc .close3,.tc .close4{position: absolute;width: 20px;background: url(../images/shanc.png) no-repeat;height:20px;font-size: 0;cursor:pointer;top: 17px;right: 20px;display: block;overflow: hidden;}
 
 .invoice{padding-top: 15px;}
 .invoice .voice{height:32px;line-height:32px;margin-bottom: 20px;}
