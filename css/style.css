@@ -260,12 +260,12 @@
 
 .invoice{padding-top: 15px;}
 .invoice .voice{height:32px;line-height:32px;margin-bottom: 20px;}
-.invoice .voice .fd .first{width: 115px;text-align: right;}
+.invoice .voice .fd .first{width: 115px;text-align: right;margin-right: 20px;}
 .invoice .voice .fd .last{width: 398px;height:30px;border: 1px solid #bbb;}
 .invoice .voice .fd .last2{width: 118px;height:118px;border:1px solid #bbb;background: #f5f5f5;}
 .invoice .voice .fd .last2 input{cursor: pointer;text-align: center;width: 118px;height:118px;border: none;outline: none;}
 .invoice .voice .fd input{width: 398px;height:29px;text-indent:5px;border: none;outline: none;}
-
+.invoice .voice .fd .last3{position: absolute;left: 275px;bottom: 0;}
 
 
 
