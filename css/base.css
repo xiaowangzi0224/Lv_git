@@ -100,41 +100,6 @@ button,#login_show  .item label{cursor: pointer;}
 .main_obj ul li h3 span{font-size: 14px;}
 .main_obj ul li p{font-size: 12px;color:#333;line-height: 18px;}
 .main_obj ul .last{margin-right: 0;}
-/*加入购物车*/
-/*.good-car{margin-top: 6px;}*/
-
-/*.good-car a{float: left;}*/
-/*/!*显示加入购物车的数量*!/*/
-/*.good-car-num{*/
-    /*width:28px;*/
-    /*height: 22px;*/
-    /*line-height: 22px;*/
-    /*text-align: center;*/
-    /*border: 1px solid #ccc;*/
-/*}*/
-/*.good-car-btn{*/
-    /*width: 20px;*/
-    /*height:24px;*/
-/*}*/
-/*/!*点击增加减少商品按钮*!/*/
-/*.good-car-btn span{*/
-    /*display: block;*/
-    /*width: 20px;*/
-    /*height: 20px;*/
-/*}*/
-/*/!*点击商品数量+1*!/*/
-/*.good-detail-add{*/
-    /*background: url(../img/goodDetail/detail-icon.png) no-repeat -230px -310px;*/
-/*}*/
-/*/!*点击商品数量-1*!/*/
-/*.good-detail-sub{*/
-    /*background: url(../img/goodDetail/detail-icon.png) no-repeat -230px -330px;*/
-/*}*/
-
-
-
-
-
 
 /*#footer样式区*/
 .foot {height:315px;width:100%;min-width:1200px;clear: both; background-color: #f6f6f6;}

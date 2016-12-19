@@ -71,7 +71,7 @@
 
 /*主页*/
 #shortcut{width:100%;background-color: #e3e4e5;min-width:1200px;color: #666;height: 29px;border: 1px solid #ddd; line-height: 29px;}
-#shortcut ul li{ float: left;height:29px;padding: 0 20px;}
+#shortcut ul li{ float: left;height:29px;padding: 0 10px;}
 #shortcut  a{color:#666;font-size: 12px;}
 #shortcut  .spacer{background: url(../images/zy_fg.png) no-repeat center;}
 #shortcut  li .xwx{padding-right: 7px;}
