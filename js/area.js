@@ -1,7 +1,4 @@
-﻿/*
-*	全国三级城市联动 js版
-*/
-function Dsy(){
+﻿function Dsy(){
 	this.Items = {};
 }
 Dsy.prototype.add = function(id,iArray){
@@ -26,11 +23,32 @@ function change(v){
 				ar = dsy.Items[str];
 				for(i=0;i<ar.length;i++){
 					options[length]=new Option(ar[i],ar[i]);
+				}
+				if(v){ options[0].selected = true; }
+			}
+		}
+		if(++v<s.length){change(v);}
+	}
+}
+function change2(v){
+	var str="0";
+	for(i=0;i<v;i++){
+		str+=("_"+(document.getElementById(t[i]).selectedIndex-1));
+	};
+	var ss=document.getElementById(t[v]);
+	with(ss){
+		length = 0;
+		options[0]=new Option(opt0[v],opt0[v]);
+		if(v && document.getElementById(t[v-1]).selectedIndex>0 || !v){
+			if(dsy.Exists(str)){
+				ar = dsy.Items[str];
+				for(i=0;i<ar.length;i++){
+					options[length]=new Option(ar[i],ar[i]);
 				}//end for
 				if(v){ options[0].selected = true; }
 			}
 		}//end if v
-		if(++v<s.length){change(v);}
+		if(++v<t.length){change2(v);}
 	}//End with
 }
 
@@ -411,18 +429,19 @@ dsy.add("0_33_0",[" "]);
 dsy.add("0_33",["台北","高雄","台中","花莲","基隆","嘉义","金门","连江","苗栗","南投","澎湖","屏东","台东","台南","桃园","新竹","宜兰","云林","彰化"]);
 dsy.add("0",["北京市","天津市","上海市","重庆市","河北省","山西省","内蒙古","辽宁省","吉林省","黑龙江省","江苏省","浙江省","安徽省","福建省","江西省","山东省","河南省","湖北省","湖南省","广东省","广西","海南省","四川省","贵州省","云南省","西藏","陕西省","甘肃省","青海省","宁夏","新疆","香港","澳门","台湾省"]);
 
-var s=["s_province","s_city","s_county"];//三个select的name
-var opt0 = ["省份","地级市","市、县级市"];//初始值
-function _init_area(){  //初始化函数
+var s=["province","city","county"];
+var t=["s_province","s_city","s_county"];
+var opt0 = ["省份","地级市","市、县级市"];
+function _init_area(){
 	for(i=0;i<s.length-1;i++){
 	  document.getElementById(s[i]).onchange=new Function("change("+(i+1)+")");
 	}
 	change(0);
 }
+function _init_area2(){
+	for(i=0;i<t.length-1;i++){
+		document.getElementById(t[i]).onchange=new Function("change2("+(i+1)+")");
+	}
+	change2(0);
+}
 
-var Gid = document.getElementById;
-var showArea = function () {
-	Gid('show').innerHTML = "<h3>省" + Gid('s_province').value + " - 市" +
-		Gid('s_city').value + " - 县/区" +
-		Gid('s_county').value + "</h3>"
-	Gid('s_county').setAttribute('onchange', 'showArea()')}
