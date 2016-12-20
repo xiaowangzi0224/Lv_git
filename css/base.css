@@ -101,6 +101,17 @@ button,#login_show  .item label{cursor: pointer;}
 .main_obj ul li p{font-size: 12px;color:#333;line-height: 18px;}
 .main_obj ul .last{margin-right: 0;}
 
+.main_object .main_obj .amount{position: relative;padding-top:6px;height: 24px;}
+.main_object .main_obj .amount input{width: 35px;height: 22px;border:1px solid #ccc;position: absolute;left: 23px;text-align: center;}
+.main_object .main_obj .amount .minus,.main_object .main_obj .amount .plus{position: absolute;color: #666; line-height: 22px;text-align: center;background: #f1f1f1; border: 1px solid #ccc;width: 22px; height: 22px;display: block;}
+.main_object .main_obj .amount .plus{left:60px;}
+
+.main_object .main_obj .amount_c{text-align:center;background:url(../images/zy_spbj.png)no-repeat ;position: absolute;right: 0;top: 6px;}
+.main_object .main_obj .amount_c a{padding:0 10px;color:#fff;font-size: 12px;line-height: 24px;}
+
+
+
+
 /*#footer样式区*/
 .foot {height:315px;width:100%;min-width:1200px;clear: both; background-color: #f6f6f6;}
 .foot_nav {padding-top: 34px;}
