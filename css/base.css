@@ -27,6 +27,7 @@ img {
 /*shoux*/
 button,#login_show  .item label{cursor: pointer;}
 #login_show  .item .label_fl p,#login_show  .login_xy span{font-size: 12px;}
+#fixed{position: fixed;width: 35px; height: 100%;background: #333;z-index: 100;right: 0;top:0;}
 
 
 /*注册协议*/

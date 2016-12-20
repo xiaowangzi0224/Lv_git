@@ -58,7 +58,6 @@
 .login_zh02 a{color:#ff5000;font-size: 14px;}
 
 /*注册成功页面*/
-#fixed{position: fixed;width: 35px; height: 100%;background: #333;z-index: 100;right: 0;top:0;}
 
 #success_banner{height:665px;width:100%;min-width:1200px;background: url(../images/success_banner.jpg) no-repeat center;}
 #success_banner .success_shaow{position:relative;height:503px;width:798px;border: 1px solid #7199aa;top:80px;left: 200px;border-radius: 15px;box-shadow: 0 0 18px rgb(140,163,162);}
