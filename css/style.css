@@ -252,9 +252,3 @@
 .invoice .voice .fd input{width: 398px;height:29px;text-indent:5px;border: none;outline: none;}
 .invoice .voice .fd .last3{position: absolute;left: 275px;bottom: 0;}
 
-/*商品详情页面*/
-#product_banner{height: 628px;width: 100%;min-width: 1200px;}
-#product_banner .product_t{height:40px;line-height: 40px;}
-#product_banner .product_t .product_tt li{float: left;padding: 0 16px;background: url("../images/product_yjt.png") no-repeat right center;}
-#product_banner .product_t .product_tt li a{color:#666;font-size:14px;}
-#product_banner .product_b{height:578px;padding-top: 10px;}
