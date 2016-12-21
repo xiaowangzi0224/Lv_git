@@ -5,7 +5,14 @@
     <title>登录页面</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <style>
+        .login_remember .safe{position: relative;}
+        .login_remember .safe_wj{position: absolute;right:0;top:0;margin: 0;}
+        .login_remember .safe_wj a{color:#666;}
+        .login_remember .safe_wj a:hover{color:red;text-decoration:underline;}
+        .login_remember .safe span{font-size:12px;margin-right: 15px;color:#666;}
+        .login_remember .safe .lvCheckbox{vertical-align: middle;}
+    </style>
 </head>
 <body>
 <header id="register_t">
@@ -29,7 +36,7 @@
                         <input type="text" placeholder="邮箱/用户名/已验证手机" class="login_name" value="">
                     </div>
                     <div class="login_item login_item02">
-                        <label class="login_label"></label>
+                        <label class="login_label" style="background: url(images/login_pwd.jpg) no-repeat"></label>
                         <input type="password" id="password" name="password" placeholder="密码" class="login_name" value="">
                     </div>
                     <div class="login_remember">
