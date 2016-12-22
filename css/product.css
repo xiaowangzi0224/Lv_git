@@ -13,161 +13,24 @@
 .small-img-box{padding:20px 30px 0;height:54px;position: relative;}
 .small-img-box .zjt{position: absolute;left: 0;top:32px}
 .small-img-box .yjt{position: absolute;right: 0;top:32px}
-
 .small-img-box li{float: left; margin-right: 4px;}
 .small-img-box li a{display: block;}
 .small-img-box li a img{width:50px;height:50px;}
 .small-img-box li:hover{border:2px solid #ff5000;}
 .product_bl{width: 349px; height: 474px;margin-right: 30px;}
-/*商品详细展示*/
-.good-detail-help{
-    float: left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*商品选择*/
-.good-detail-select{
-    width:820px;
-    height: 474px;
-}
-/*商品具体名称*/
-.good-detail-name{
-    width:820px;
-    height: 183px;
-}
-.good-detail-name li{
-    height: 22px;
-    line-height: 22px;
-
-}
-.good-detail-name li.good-detail-bigName{font-size: 18px;color: #666;line-height: 68px; font-weight: bold; height: 68px;}
-/*限时促销*/
-.good-detail-name li.good-detail-proTitle{
-    color: rgb(255,92,0);
-    font-size: 17px;
-    font-weight: bold;
-}
-/*母婴之家发货*/
-.good-detail-send{
-    width: 645px;
-    height: 22px;
-    line-height: 22px;
-    position: relative;
-}
-/*c3的小三角*/
-.good-detail-send span{
-    border-bottom: 8px solid transparent;
-    border-left: 15px solid #f70;
-    border-top: 8px solid transparent;
-    display: inline-block;
-    height: 0px;
-    width: 0px;
-    margin-top: 7px;
-}
-.good-detail-send i{
-    font-style: normal;
-    position: absolute;
-    top: 5px;
-    left: 20px;
-}
-/*促 销 价*/
-
-.good-detail-off span{
-    display: inline-block;
-    margin-left: 20px;
-    color: #AAAAAA;
-    letter-spacing: .5em;
-}
-.good-detail-off em{
-    font-style: normal;
-    color: #FF0000;
-}
-.good-detail-off i{
-    font-style: normal;
-    color: #f00;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 22px;
-    margin-left: 23px;
-}
-/*促销信息*/
-
-
-/*换购*/
-
-.good-detail-change .good-detail-span03{
-    position: absolute;
-    top: 15px;
-    left: 142px;
-    /*小三角*/
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    border-left: 10px solid rgb(92,157,255);
-    display: inline-block;
-}
-/*全场买即可换购*/
-.good-detail-change .good-detail-aName{
-    position: absolute;
-    top: 8px;
-    left: 155px;
-    color: #f00;
-}
-/*规格 颜色*/
-.good-list-selected{
-    width: 634px;
-    height: 90px;
-    border-bottom: 1px dashed #AAAAAA;
-    border-top: 1px dashed #AAAAAA;
-}
-.good-list-selected li{
-    width: 634px;
-    height: 45px;
-    line-height: 45px;
-}
-.good-list-selected li span{
-    display: inline-block;
-    float: left;
-    letter-spacing: 4em;
-    color: #AAAAAA;
-}
-.good-selected-guige a{
-    float: left;
-    width: 31px;
-    height: 24px;
-    line-height: 24px;
-    text-align: center;
-    border: 1px solid #f70;
-    margin-left: 10px;
-    background: url(../images/product_xzg.png) no-repeat scroll right bottom;
-}
-.good-list-selected li.good-selected-color a{
-    width: 48px;
-}
+.good-detail-select{width:820px;height: 530px;}
+.good-detail-name{width:820px; height: 188px;}
+.good-detail-name .good-detail-bigName{font-size: 18px;color: #666;line-height: 68px; font-weight: bold; height: 68px;}
+.good-detail-bigName2{height:120px;}
+.good-detail-bigName2 .price{height: 60px;line-height: 56px;padding-right:100px;padding-left: 10px;}
+.good-detail-bigName2 .price .dt{margin-right:24px;text-align: justify;text-align-last: justify;width: 51px;color: #666;font-size: 14px;}
+.good-detail-bigName2 .price .dd .price01{color:#ff5000;font-size: 24px;font-weight: bold;}
+.good-detail-bigName2 .price .dd .price02{margin-top:20px;margin-right:19px;font-size:12px;color:#ff5000;display:block;width: 48px;height: 18px;border:1px solid #ff5000;text-align: center;line-height: 18px;}
+.good-detail-bigName2 .price .dd .price03,.good-detail-bigName2 .price .dd .price03 a{font-size: 12px;color:#666;}
+.good-list-selected{height: 200px;border-top: 1px dashed #AAAAAA; border-bottom: 1px dashed #AAAAAA;padding-left: 10px;}
+.good-list-selected li span{ display: inline-block;text-align: justify; color:#666; text-align-last: justify; float: left;width: 51px; font-size: 14px;margin-right: 24px;}
+.good-list-selected .first{padding: 30px 0;height: 30px;line-height: 30px;}
+.good-selected-guige a{text-align: center; border: 1px solid #ff5000;background: url(../images/product_xzg.png) no-repeat scroll right bottom;  float: left;width: 188px;height: 27px;line-height: 27px;font-size: 14px;color:#ff5000;}
 
 
 
