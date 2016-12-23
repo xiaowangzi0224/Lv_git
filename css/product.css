@@ -60,3 +60,12 @@
 #product_browse .product_browse .product_bowl .product_bowLb .Wx .zz{position: absolute;left: 0;bottom:0;background: url(../images/pro_zz.png);width: 170px;}
 #product_browse .product_browse .product_bowl .product_bowLb .Wx .zz p{height:15px;line-height: 15px;color:#fff;font-size: 12px;}
 #product_browse .product_browse .product_bowr{width:950px;}
+#product_browse .product_browse .product_bowr .product_rmAi1{height:40px;line-height: 40px;border-bottom: 1px solid #ff5000;}
+#product_browse .product_browse .product_bowr .product_rmAi1 li{float: left;width: 100px;text-align: center;margin-right: 8px;}
+#product_browse .product_browse .product_bowr .product_rmAi1 .first,#product_browse .product_browse .product_bowr .product_rmAi1 li:hover{background: #ff5000;}
+#product_browse .product_browse .product_bowr .product_rmAi1 .first a{color: #fff;}
+#product_browse .product_browse .product_bowr .product_rmAi1 li a{font-size: 14px;color:#666;}
+#product_browse .product_browse .product_bowr .product_rmAi1 li a:hover{color: #fff;}
+#product_browse .product_browse .pro_mous{position: absolute;left: 250px;top: 60px;width: 950px;height:1289px;background: url(../images/zy_t4.jpg)}
+
+
