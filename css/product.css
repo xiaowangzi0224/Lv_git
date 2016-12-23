@@ -43,10 +43,20 @@
 .good-list-selected .gwc a{font-size:18px;display: inline-block;text-align: center;line-height: 50px;font-weight: bold;}
 .good-list-selected .gwc .gwc_l{color:#fff;background: #ff5000;width: 190px;height: 50px;}
 .good-list-selected .gwc .gwc_r{color:#ff5000;background: #ffeee5;width: 138px;height: 48px;border: 1px solid #ff5000;margin-left: 50px;}
-
-
-
-
-
-
-
+#product_rmAi{height:291px;width: 100%;min-width: 1200px;}
+#product_rmAi .product_rmAi{height:291px;}
+#product_rmAi .product_rmAi .product_rmAi1{height: 40px;border-bottom: 1px solid #ff5000;}
+#product_rmAi .product_rmAi .product_rmAi1 a{font-size:14px;background: #ff5000;color:#fff;width:100px;height:40px;display: inline-block;text-align: center;line-height:40px;font-weight: bold;}
+#product_rmAi .product_rmAi .product_rmAi2{padding: 20px;}
+#product_rmAi .product_rmAi .product_rmAi2 li{text-align:center;float: left;width: 160px;margin-right: 50px;}
+#product_rmAi .product_rmAi .product_rmAi2 li a{display: block;}
+#product_rmAi .product_rmAi .product_rmAi2 li span{height:30px;line-height:30px;color:#ff5000;font-size: 14px;}
+#product_browse .product_browse .product_bowl{margin-right:40px;width: 210px;}
+#product_browse .product_browse .product_bowl .product_bowLt{margin-bottom:20px;width: 210px;height: 40px;line-height:40px;background: #f7f7f7;text-align: center;}
+#product_browse .product_browse .product_bowl .product_bowLt a{color:#666;font-size:14px;font-weight: bold;}
+#product_browse .product_browse .product_bowl .product_bowLb{height:780px;background: #f7f7f7;width: 170px;padding: 20px 20px 0}
+#product_browse .product_browse .product_bowl .product_bowLb .Wx{height: 200px;}
+#product_browse .product_browse .product_bowl .product_bowLb .Wx .weiXig{display: block;position: relative;}
+#product_browse .product_browse .product_bowl .product_bowLb .Wx .zz{position: absolute;left: 0;bottom:0;background: url(../images/pro_zz.png);width: 170px;}
+#product_browse .product_browse .product_bowl .product_bowLb .Wx .zz p{height:15px;line-height: 15px;color:#fff;font-size: 12px;}
+#product_browse .product_browse .product_bowr{width:950px;}
