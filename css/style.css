@@ -155,9 +155,45 @@
 .personal_mainR1 .span:before{position: absolute;content: ""; width:880px;height: 1px;top:30px;left:90px;background: #ccc;}
 .personal_mainR1 .span span{color:#ff5000;font-size: 12px;line-height: 31px;}
 .personal_mainR1 .tx{padding: 50px 0 0 31px;position: relative;}
-.personal_mainR1 .burs{padding: 50px 0 0 31px;}
-.personal_mainR1 .burs .burs_t{height: 25px;line-height: 25px;}
+.personal_mainR1 .burs{padding-top: 50px;padding-bottom: 20px;}
+.personal_mainR1 .burs .burs_t{height: 25px;line-height: 25px;padding: 17px 27px;background:#faf7f7;}
 .personal_mainR1 .burs .burs_t li{float: left;line-height: 25px;}
+.personal_mainR1 .burs_b{height: 395px;padding-left: 20px;background:#f3c5d8;}
+.personal_mainR1 .burs_b .burs_b1{padding: 9px 0;height: 23px;}
+.personal_mainR1 .burs_b .burs_b1 li{text-align:center;margin-right:27px;float: left;width: 100px;height:21px;line-height: 21px;}
+.personal_mainR1 .burs_b .burs_b1 li a{font-size: 12px;color:#999;}
+.personal_mainR1 .burs_b .burs_b2{margin-bottom:10px;height: 35px;padding-left: 21px;background: #dddddd;line-height: 35px;}
+.personal_mainR1 .burs_b .burs_b3{margin-bottom:10px;height: 35px;padding-left: 21px;background: #f5f5f5;line-height: 35px;}
+.personal_mainR1 .burs_b .burs_b2 li,.personal_mainR1 .burs_b .burs_b3 li{float: left;width: 152px;margin-right: 27px;color:#333;font-size: 12px;font-weight: bold;}
+.personal_mainR1 .burs_b .burs_b3 li{font-weight: normal;}
+.personal_mainR1 .burs_b .burs_b2 .bz,.personal_mainR1 .burs_b .burs_b3 .bz{width:402px;margin-right: 0;}
+.personal_mainR1 .burs_b .burs_b4{float:right;padding-top: 40px;}
+.personal_mainR1 .burs_b .burs_b4 li{float:left;width: 83px;background:#fff;height:36px;line-height: 36px;text-align: center;border: 1px solid #ddd;}
+.personal_mainR1 .burs_b .burs_b4 li a{color:#666;font-size: 14px;}
+.personal_mainR1 .burs_b .burs_b4 .sz{width: 36px;height:36px;border: 1px solid #ff5000;margin:0 10px;}
+.personal_mainR1 .burs_b .burs_b4 .sz a{color:#ff5000;}
+
+/*绿优钱包------充值*/
+#burSe2{height:36px;padding:22px 0;width: 100%;min-width: 1200px;}
+#burSe2 .burSe2 a{display: inline-block;}
+#burSe3{height:720px;}
+#burSe3 .burSe3{height:589px;width: 990px;border:1px solid #003399;behavior:url(PIE.htc);position:relative;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;margin: 30px auto 100px;}
+#burSe3 .burSe3 .burSe3_1{height:40px;margin-bottom:40px;background: #f3f3f3;padding-left: 20px;behavior:url(PIE.htc);position:relative;border-top-left-radius: 5px;border-top-right-radius: 5px;-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-top-left-radius: 5px;-moz-border-top-right-radius: 5px;}
+#burSe3 .burSe3 .burSe3_1 h4{font-size: 20px;height:40px;line-height:40px;color:#333;letter-spacing: 1px;}
+#burSe3 .burSe3 .burSe3_2{width: 830px;height:460px;margin: 0 auto;}
+#burSe3 .burSe3 .burSe3_2 .burSe3_3{height: 156px;width:826px;border: 2px solid #edd28b;background: #fffdee;margin-top: 20px;}
+#burSe3 .burSe3 .burSe3_2 .burSe3_3 ul{padding-left: 18px;}
+#burSe3 .burSe3 .burSe3_2 .burSe3_3 ul .first{height: 45px;line-height: 45px;font-weight: bold;}
+#burSe3 .burSe3 .burSe3_2 .burSe3_3 ul li{height: 20px;line-height: 20px;font-size: 12px;color:#666;}
+
+#burSe3 .burSe3 .burSe3_2 .cz{line-height: 30px;padding-bottom: 20px;height: 30px;}
+#burSe3 .burSe3 .burSe3_2 .cz .first{width: 85px;text-align: right;padding-right: 9px;}
+#burSe3 .burSe3 .burSe3_2 .cz input{outline: none;margin-right:10px;width: 98px;height:26px;line-height: 26px;text-align: center;}
+#burSe3 .burSe3 .burSe3_2 .cz .fd li{float: left;font-size: 14px;color:#333;}
+#burSe3 .burSe3 .burSe3_2 .cz .czFs a{text-align: center;line-height: 26px;width: 98px;height: 26px;display: inline-block;font-size: 14px;border: 1px solid #ccc;color: #333;}
+#burSe3 .burSe3 .burSe3_2 .cz .zf{width: 155px;height: 36px;font-size: 18px;font-weight: bold;color:#fff;background: #ff5000; border: none;outline: none;border-radius: 2px;-moz-border-radius: 2px; -webkit-border-radius: 2px; behavior:url(PIE.htc);position:relative;margin-right: 0;}
+
+
 .personal_mainR1 .tx .tx2{position: absolute;top:50px;right:187px;}
 .tx .tx2 ul{height:19px;line-height: 19px;padding-bottom: 15px;}
 .tx .tx2 ul li{float: left;padding-right: 14px;}
