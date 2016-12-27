@@ -92,7 +92,39 @@
 .shortcut_lm .syXm a{float:left;color:#333;font-weight: bold;width:114px;text-align: center; display:block;font-size: 16px;}
 .shortcut_lm .syXm .sy{width:74px;}
 .shortcut_sjq{height:490px;}
-.shortcut_sjqL{width:230px;background: #19f27a;height:490px}
+.shortcut_sjqL{width:230px;height:490px;background: #19f27a;}
+.shortcut_sjqL .dl{height:70px;}
+.shortcut_sjqL .dl .dl_l{width:48px;line-height:50px;height: 50px;background: #e0e0e0;padding: 10px;}
+.shortcut_sjqL .dl .dl_l a{display: block;font-size: 14px;}
+.shortcut_sjqL .dl .dl_l .sg{color:#5c90b7;}
+.shortcut_sjqL .dl .dl_l .dg{color:#974676;}
+.shortcut_sjqL .dl .dl_l .mg{color:#498c94;}
+.shortcut_sjqL .dl .dl_l .wg{color:#cb365b;}
+.shortcut_sjqL .dl .dl_l .yg{color:#d48800;}
+.shortcut_sjqL .dl .dl_l .gj{color:#866350;}
+.shortcut_sjqL .dl .dl_l .wz{color:#ce4140;}
+.shortcut_sjqL .dl .dl_l a img{padding-right:4px;}
+.shortcut_sjqL .dl .dl_r{width:162px;height:69px;border-bottom: 1px solid #e0e0e0;background: #fff;}
+.shortcut_sjqL .dl .dl_r ul{padding: 6px 18px;}
+.shortcut_sjqL .dl .dl_r ul li{height: 19px;line-height: 19px;}
+.shortcut_sjqL .dl .dl_r ul li a{font-size: 12px;color:#666;width: 50px;display: inline-block;}
+.shortcut_sjqL .dl .dl_r ul li .space{padding-right: 25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .shortcut_sjqC{width:750px;padding: 0 10px;height:490px}
 .zy_bxt{margin-top: 10px;}
 .zy_bxt li{float: left;margin-right: 10px;}
