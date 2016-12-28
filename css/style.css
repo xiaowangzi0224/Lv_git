@@ -194,26 +194,40 @@
 
 /*分类页面样式*/
 .classify_section{width: 1200px;margin: 0 auto;}
-.classify_favourable{position:relative;margin-top:20px;padding:15px 60px;width:1200px;height:150px;background-color: #fff;}
+.classify_section .classify_favourable{position:relative;margin-top:20px;padding:15px 60px;width:1080px;height:120px;background-color: #fff;}
+.classify_section .classify_favourable>img{position:absolute;left:25px;top:0;}
+.classify_section .classify_xx{width:260px;height:100px;padding:10px;  margin:0 40px;font-size:12px;background-color:#f6f6f6;}
+.classify_section .classify_xx img{ width:100px; height:100px;}
+.classify_section .classify_text{margin-left:10px;width:150px;}
+.classify_section .classify_ms{height:50px;line-height:20px;}
+.classify_section .classify_tj{height:25px;line-height:25px;}
+.classify_section .classify_ljqg{width:75px;height:25px;line-height:25px;text-align:center;color:#fff;font-size:10px;background-color:#ff5000;  }
+.classify_section .classify_ljqg:hover{cursor:pointer;border:1px solid #cbcbcb;color:#333;}
+.classify_section .classify_color{color:#ff5000;font-weight:600;}
+.classify_section .classify_banner{ height:24px;padding:15px 0 15px 10px;}
+.classify_section .classify_banner p{ margin-right:10px; font-weight:600;font-size: 14px;color:#666;display:inline-block; }
+.classify_section .classify_banner>span{font-size: 12px;display:inline-block;color:#ff5000;height:22px;line-height:22px;margin-right:10px;border:1px solid #cbcbcb;margin-left:10px;}
+.classify_section .classify_banner>span:hover{border-color: #ff5000;}
+.classify_section .classify_banner .name{ padding:0 8px;}
+.classify_section .classify_banner .close{display: inline-block;width:24px;height:20px;text-align:center; }
+.classify_section .classify_banner .hover{background-color:#ff5000;color:#fff;border:1px solid #ff5000;}
+.classify_section .classify_banner .close:hover{background-color:#ff5000;color:#fff;cursor:pointer;border:1px solid #ff5000;}
+.classify_section .classify_banner .classify_clear{border:none;}
+.classify_section .classify_banner .classify_clear:hover{cursor:pointer;}
+.classify_section .classify_banner2{margin-bottom:10px;padding-left:10px;font-size: 14px;color:#666;font-weight:600;height:35px;line-height:35px;background-color:#fff;}
+.classify_section .sort{background:#fff;overflow:hidden;}
+.classify_section .sort .a1{height:34px;line-height:34px;padding-left:20px;border-top:1px solid #cbcbcb;}
+.classify_section .sort .a1 span{font-weight:600;margin-right:20px;float:left;font-size: 12px;color:#666;}
+.classify_section .sort .a1 ul li{padding:0 20px;float:left;font-size: 12px;color:#666;}
+.classify_section .sort .a1 ul li:hover{cursor:pointer; color:#ff5000;}
+.classify_section .sort .a1 ul .add{color:#ff5000; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.classify_section .classify_banner3{height:25px;background:#fff;padding:5px 0 5px 20px;margin-top:20px;}
+.classify_section .classify_banner3 span{padding:0 20px;height:23px;font-size: 12px;color:#333;line-height:23px;border:1px solid #cbcbcb;border-right:none;float:left;}
+.classify_section .classify_banner3 .adds{ background:#ff5000;color:#fff;}
+.classify_section .classify_banner3 span:hover{background-color:#ff5000;border-color:#ff5000;color:#fff;cursor:pointer;  }
+.classify_section .classify_banner3 .none{border-right:1px solid #cbcbcb;}
 
 
 

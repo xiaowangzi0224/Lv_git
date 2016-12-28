@@ -1,16 +1,21 @@
 body, h1, h2, h3, h4, p, ul, ol, dl, dd, form, input, textarea, select, th, td { margin: 0; padding: 0;}
-body{overflow:scroll;overflow-x:hidden;}
+/*body{overflow:scroll;overflow-x:hidden;}*/
 *{font-family:Arial, Verdana, Tahoma, "宋体", Helvetica, sans-serif,Microsoft Yahei;}
 li {list-style-type: none;}
 a {text-decoration: none;}
 img {border: none;vertical-align: middle;}
 .inner{width:1200px; margin: 0 auto;}
-.fl{float: left;}
-.fr{float: right;}
+.fl,.lt{float: left;}
+.fr,.gt{float: right;}
 .clear{clear:both;}
 .bj{background:#f6f6f6;}
 .bj2{background:#f5f5f5;}
 .bj3{background:#fff;}
+a:hover{cursor:pointer;}
+
+
+
+
 
 /*公共样式*/
 /*shoux*/
