@@ -112,19 +112,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .shortcut_sjqC{width:750px;padding: 0 10px;height:490px}
 .zy_bxt{margin-top: 10px;}
 .zy_bxt li{float: left;margin-right: 10px;}
@@ -204,6 +191,35 @@
 .personal_mainR1 .burs_b .burs_b4 li a{color:#666;font-size: 14px;}
 .personal_mainR1 .burs_b .burs_b4 .sz{width: 36px;height:36px;border: 1px solid #ff5000;margin:0 10px;}
 .personal_mainR1 .burs_b .burs_b4 .sz a{color:#ff5000;}
+
+/*分类页面样式*/
+.classify_section{width: 1200px;margin: 0 auto;}
+.classify_favourable{position:relative;margin-top:20px;padding:15px 60px;width:1200px;height:150px;background-color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*绿优钱包------充值*/
 #burSe2{height:36px;padding:22px 0;width: 100%;min-width: 1200px;}
