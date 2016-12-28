@@ -1,5 +1,4 @@
 body, h1, h2, h3, h4, p, ul, ol, dl, dd, form, input, textarea, select, th, td { margin: 0; padding: 0;}
-/*body{overflow:scroll;overflow-x:hidden;}*/
 *{font-family:Arial, Verdana, Tahoma, "宋体", Helvetica, sans-serif,Microsoft Yahei;}
 li {list-style-type: none;}
 a {text-decoration: none;}

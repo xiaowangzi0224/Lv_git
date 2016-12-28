@@ -106,8 +106,8 @@
 .shortcut_sjqL .dl .dl_l a img{padding-right:4px;}
 .shortcut_sjqL .dl .dl_r{width:162px;height:69px;border-bottom: 1px solid #e0e0e0;background: #fff;}
 .shortcut_sjqL .dl .dl_r ul{padding: 6px 18px;}
-.shortcut_sjqL .dl .dl_r ul li{height: 19px;line-height: 19px;}
-.shortcut_sjqL .dl .dl_r ul li a{font-size: 12px;color:#666;width: 50px;display: inline-block;}
+.shortcut_sjqL .dl .dl_r ul li{height:57px;line-height: 19px;}
+.shortcut_sjqL .dl .dl_r ul li a{float:left;font-size: 12px;color:#666;width: 50px;display: inline-block;}
 .shortcut_sjqL .dl .dl_r ul li .space{padding-right: 25px;}
 
 
@@ -221,8 +221,6 @@
 .classify_section .sort .a1 ul li{padding:0 20px;float:left;font-size: 12px;color:#666;}
 .classify_section .sort .a1 ul li:hover{cursor:pointer; color:#ff5000;}
 .classify_section .sort .a1 ul .add{color:#ff5000; }
-
-
 .classify_section .classify_banner3{height:25px;background:#fff;padding:5px 0 5px 20px;margin-top:20px;}
 .classify_section .classify_banner3 span{padding:0 20px;height:23px;font-size: 12px;color:#333;line-height:23px;border:1px solid #cbcbcb;border-right:none;float:left;}
 .classify_section .classify_banner3 .adds{ background:#ff5000;color:#fff;}
