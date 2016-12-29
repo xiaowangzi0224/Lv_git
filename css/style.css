@@ -239,7 +239,7 @@
 .classify_section .foot_last li{float:left;width:38px;height:38px;margin-right:5px;text-align:center;}
 .classify_section .tfoot_yy{margin:0 5px;}
 .classify_section .tfoot_ly{margin:0 5px;}
-.classify_section .tfoot_ly input{outline:none;display: inline-block;width:38px;height:38px;margin:0 5px;text-align:center;background-color:#fff;border:1px solid #e6e6e6;}
+.classify_section .tfoot_ly input{outline:none;display: inline-block;width:38px;height:38px;line-height:38px;margin:0 5px;text-align:center;background-color:#fff;border:1px solid #e6e6e6;}
 .classify_section .OK{display: inline-block;width:54px;height:38px;margin:0 0 0 5px;text-align:center;background-color:#fff;border:1px solid #e6e6e6;cursor: pointer;}
 .classify_section .table_tfoot a:hover{border-color: #ff5000;color:#ff5000;}
 

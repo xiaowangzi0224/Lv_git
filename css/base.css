@@ -41,9 +41,9 @@ button,#login_show  .item label{cursor: pointer;}
 
 /*轮播图*/
 #prev {left: 20px;}
-#next { right: 20px;}
-.arrow { cursor: pointer; display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; top: 140px; background-color: RGBA(0,0,0,.3); color: #fff;}
-.arrow:hover { background-color: RGBA(0,0,0,.7);}
+#next {right: 20px;}
+.arrow {cursor: pointer; display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; top: 140px; background-color: RGBA(0,0,0,.3); color: #fff;}
+.arrow:hover {background-color: RGBA(0,0,0,.7);}
 
 /*主页物品楼层*/
 #shortcut_main .main_cp{height:778px;}
@@ -100,7 +100,7 @@ button,#login_show  .item label{cursor: pointer;}
 .main_obj ul .last{margin-right: 0;}
 
 .main_object .main_obj .amount{position: relative;padding-top:6px;height: 24px;}
-.main_object .main_obj .amount input{width: 35px;height: 22px;border:1px solid #ccc;position: absolute;left: 23px;text-align: center;}
+.main_object .main_obj .amount input{width: 35px;height: 22px;line-height:22px;border:1px solid #ccc;position: absolute;left: 23px;text-align: center;}
 .main_object .main_obj .amount .minus,.main_object .main_obj .amount .plus{position: absolute;color: #666; line-height: 22px;text-align: center;background: #f1f1f1; border: 1px solid #ccc;width: 22px; height: 22px;display: block;}
 .main_object .main_obj .amount .plus{left:60px;}
 
@@ -111,7 +111,7 @@ button,#login_show  .item label{cursor: pointer;}
 
 
 /*#footer样式区*/
-.foot {height:315px;width:100%;min-width:1200px;clear: both; background-color: #f6f6f6;}
+.foot {height:315px;width:100%;min-width:1200px;clear: both; background-color: #fff;}
 .foot_nav {padding-top: 34px;}
 .foot_nav ul li {float: left;width: 170px;}
 .foot_nav ul li h3 {font-family: "微软雅黑";font-size: 14px;color: #666666;font-weight: bold;height:44px;line-height: 44px;  }
