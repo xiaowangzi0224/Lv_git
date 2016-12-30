@@ -243,7 +243,53 @@
 .classify_section .OK{display: inline-block;width:54px;height:38px;margin:0 0 0 5px;text-align:center;background-color:#fff;border:1px solid #e6e6e6;cursor: pointer;}
 .classify_section .table_tfoot a:hover{border-color: #ff5000;color:#ff5000;}
 
-/*绿优钱包------充值*/
+
+/*订单确认---购物车*/
+#cart_write{height:1422px;width: 100%;min-width: 1200px;}
+#cart_write .write{height: 36px;}
+#cart_write .write h3{font-size: 16px;line-height:36px;color:#666;font-weight: bold;}
+#cart_write .checkout-steps{height: 1386px; padding:0 20px;}
+#cart_write .checkout-steps .step-tit{height:222px;border-bottom: 1px solid #dddddd;}
+#cart_write .checkout-steps .step-tit .step-tit01{height: 52px;line-height:52px;}
+#cart_write .checkout-steps  h3{color:#333;font-weight: bold;font-size: 14px;}
+#cart_write .checkout-steps .step-tit .step-tit01 a{font-size: 12px;color:#ff5000;}
+#cart_write .checkout-steps .step-tit .step-tit02{padding:10px 20px; }
+#cart_write .checkout-steps .step-tit .step-tit02 ul li{height:30px;line-height: 30px;margin-bottom: 20px;}
+#cart_write .checkout-steps .step-tit .step-tit02 ul li ul li{float:left;font-size: 12px;color:#666;}
+#cart_write .checkout-steps .step-tit .step-tit02 ul li ul .first{text-align: center;width:96px;height:26px;line-height: 26px;border: 2px solid #ddd;}
+#cart_write .checkout-steps .step-tit .step-tit02 ul li ul .first a{color:#666;}
+#cart_write .checkout-steps .step-tit .step-tit02 ul li ul .last{width: 1000px;padding-left: 20px;}
+#cart_write .checkout-steps .step-tit .step-tit02 .step_name .step_name1,#cart_write .checkout-steps .step-tit .step-tit02 ul li ul .first:hover{border: 2px solid #ff5000;}
+#cart_write .checkout-steps .step-tit .step-tit02 .step_name .step_name1 a{color:#666;height: 26px;width: 96px;display: block;background: url(../images/product_xzg.png) no-repeat scroll right bottom;}
+#cart_write .checkout-steps .step-tit .step-tit02 ul li ul .last:hover{background: #ffeee5;}
+#cart_write .checkout-steps .step-tit .step-tit02 ul li ul .last .step_name2{display: inline-block;width: 600px;}
+#cart_write .checkout-steps .step-tit .step-tit02 ul li ul .last .step_name3{margin-right:140px;width: 60px;height: 24px;line-height: 24px;text-align: center;display: inline-block;background: #ff5000;color:#fff;}
+#cart_write .checkout-steps .step-tit .step-tit02 ul li ul .last .bj{color:#00afff;margin-right: 20px;}
+
+#cart_write .checkout-steps .step-tit2{border-bottom: 1px solid #ddd;height:133px;}
+#cart_write .checkout-steps .step-tit2 h3{height:72px;line-height: 72px;}
+#cart_write .checkout-steps .step-tit2 .step-yl{padding: 0 20px;}
+
+
+
+
+
+#cart_write .checkout-steps .step-tit2 li{float: left;width:100px;height:26px;line-height:26px;border:2px solid #ddd;margin-right: 50px;text-align: center;}
+#cart_write .checkout-steps .step-tit2 .lts{font-size: 12px;width: 78px;height:26px;line-height: 26px;border:2px solid #ddd;}
+#cart_write .checkout-steps .step-tit2 .lts input{width: 78px;height:26px;line-height: 26px;border:none;outline: none;text-align: center;}
+#cart_write .checkout-steps .step-tit2 li a{color:#666;font-size: 12px;display:block;}
+#cart_write .checkout-steps .step-tit2 li a img{padding-right: 10px;}
+#cart_write .checkout-steps .step-tit2 li:hover,#cart_write .checkout-steps .step-tit2 .first{border-color:#ff5000;}
+#cart_write .checkout-steps .step-tit2 li .first{background: url(../images/product_xzg.png) no-repeat scroll right bottom;}
+
+
+
+
+
+
+
+
+    /*绿优钱包------充值*/
 #burSe2{height:36px;padding:22px 0;width: 100%;min-width: 1200px;}
 #burSe2 .burSe2 a{display: inline-block;}
 #burSe3{height:720px;}

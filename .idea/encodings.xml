@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/images/huodaofk.jpg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/shanc.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/weixin.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/yinlzh.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/yuezh.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/zhihubao.jpg" charset="UTF-8" />
   </component>
 </project>
