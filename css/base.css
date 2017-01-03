@@ -4,6 +4,7 @@ li {list-style-type: none;}
 a {text-decoration: none;}
 img {border: none;vertical-align: middle;}
 .inner{width:1200px; margin: 0 auto;}
+.inner2{width:1000px; margin: 0 auto;}
 .fl,.lt{float: left;}
 .fr,.gt{float: right;}
 .clear{clear:both;}
@@ -116,7 +117,10 @@ button,#login_show  .item label{cursor: pointer;}
 /*#footer样式区*/
 .foot {height:315px;width:100%;min-width:1200px;clear: both; background-color: #fff;}
 .foot_nav {padding-top: 34px;}
-.foot_nav ul li {float: left;width: 170px;}
+.foot_nav ul li {float: left;border-right: 1px solid #e6e6e6;padding: 0 50px;height: 159px;}
+.foot_nav ul .se{border-right-color:transparent;}
+.foot_nav ul .se2{padding: 0 24px 0 0;}
+.foot_nav ul .se3{padding: 0;}
 .foot_nav ul li h3 {font-family: "微软雅黑";font-size: 14px;color: #666666;font-weight: bold;height:44px;line-height: 44px;  }
 .foot_nav ul li p {line-height: 22px;color: #999;}
 .foot_nav ul li p a {color: #999;font-size:12px;}
@@ -129,3 +133,5 @@ button,#login_show  .item label{cursor: pointer;}
 .foot_bottom p{height:34px;line-height: 34px;color:#666;font-size: 12px;}
 .foot_bottom p span:before{position: absolute;content: "";width: 1px;height:10px;left:23px;top:1px;background: #666;}
 .foot_bottom p span{position:relative;padding-left:62px;}
+
+
