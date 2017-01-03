@@ -6,14 +6,20 @@
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
-        #shortcut{min-width:1000px; }
+        #shortcut,#shortcut_b{min-width:1000px; }
 
         /*foot区 为1000*/
         .foot{min-width: 1000px;}
         .foot_nav ul li{padding: 0 34px;}
+        #shortcut_b{height: 45px;padding: 30px 0;}
+        .shortcut_bloGo{padding: 0;}
+        .shortcut_search{position: static;width: 346px}
+        .shortcut_search input{width: 300px;}
+        .shortcut_search button{width: 46px;}
     </style>
 </head>
-<body>
+
+<body class="bj">
 <div id="shortcut">
     <div class="inner2">
         <div class="shortcut_w">
@@ -41,6 +47,24 @@
             </ul>
             <div class="clear"></div>
         </div>
+    </div>
+</div>
+
+<div id="shortcut_b">
+    <div class="inner2">
+        <div class="shortcut_nav">
+            <div class="shortcut_bloGo fl">
+                <a href="#"><img src="images/zy_logo.png"/></a>
+            </div>
+            <div class="shortcut_search fr">
+                <input type="text" class="fl" placeholder="绿优全装三合一普通砂浆 Only 界面">
+                <button type="button" class="fr"><img src="images/zy_ss.png"/></button>
+            </div>
+
+
+        </div>
+
+
     </div>
 </div>
 
