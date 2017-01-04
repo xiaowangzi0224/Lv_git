@@ -7,6 +7,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
         .foot{background: #fff;}
+        .bj_state{display: none; position: fixed; background: url(images/zhezhao.png) left top;left: 0;top: 0; z-index: 100;  width: 100%;height: 100%; }
+        .bj_state .sm{text-align: center;height:75px;line-height:75px;color:#666;font-weight: bold; font-size: 16px;  }
+        .bj_state ul{height: 210px;padding: 0 50px 10px;}
+        .bj_state ul li{height:26px;line-height:26px;font-size: 12px;color:#666;}
     </style>
 </head>
 <body>
@@ -97,7 +101,7 @@
                             <li style="color:#666;font-size: 12px;">当前余额：</li>
                             <li style="color:#ff5000;font-size: 16px;margin-right: 50px;padding-left: 11px;">￥1,350.00</li>
                             <li style="width: 54px;height: 25px;text-align: center;background: #ff5000;margin-right: 20px;"><a href="burse2.html" style="font-size: 12px;color:#fff;">充值</a></li>
-                            <li><a href="#" style="color:#005ea7;font-size: 12px;">钱包说明</a></li>
+                            <li><a class="wallet " href="#" style="color:#005ea7;font-size: 12px;">钱包说明</a></li>
                             <li style="color:#666;font-size: 12px;float: right;">为了保护您的账户资产安全，<a href="#" style="color:#427ab4;">请尽量完善账户信息。</a></li>
                         </ul>
                     </div>
@@ -243,5 +247,35 @@
         </div>
     </div>
 </footer>
+<div class="bj_state">
+    <div class="tc" id="tc_add" style="height:350px;top:50%;margin-top: -150px;">
+        <div class="tc_bt" style="width:628px;">
+            <span style="font-weight: bold;color:#333;">钱包说明</span>
+            <img src="images/profile_yy.jpg">
+        </div>
+        <p  class="sm">绿优钱包使用说明</p>
+        <ul>
+            <li>1、本平台充值按照1：1.1的比例进行余额返还，充值金额以万为单位，且不可提现。</li>
+            <li>2、充值金额输入必须大于1的正整数。</li>
+            <li>3、充值成功后，返回余额可能会需要一段时间才会出现在您的账户中，请您不要担心，这是正常现象，一</li>
+            <li>般不会超过5分钟，如有问题，请咨询客服。</li>
+            <li>4、本平台不支持信用卡支付，只能使用储蓄卡或者对应平台绑定的储蓄卡，平台余额进行充值。</li>
+            <li>5、充值完成后，您可以进入我的钱包页面进行查看余额充值状态。</li>
+        </ul>
+
+        <a class="close" title="关闭">
+            <span></span>
+        </a>
+    </div>
+</div>
+<script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(".wallet ").click(function () {
+        $(".bj_state").show();
+    });
+    $(".close").click(function () {
+        $(".bj_state").hide();
+    })
+</script>
 </body>
 </html>
