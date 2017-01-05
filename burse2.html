@@ -5,6 +5,19 @@
     <title>绿优钱包------充值</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+   <style>
+       .bj_state{display: none; position: fixed; background: url(images/zhezhao.png) left top;left: 0;top: 0; z-index: 100;  width: 100%;height: 100%; }
+       .Account{padding: 42px 180px;width:308px;height: 243px;}
+       .Account dl{height:43px;line-height: 43px;font-size: 12px;}
+       .Account dl dt{width: 104px;text-align: right;color:#333;margin-right: 20px;}
+       .Account dl dd{color:#333;width: 184px;text-align: left;}
+       .Account .cz{margin-bottom: 30px;}
+       .Account .btn dt,.Account .btn dd{width: 100px;height:30px;text-align: center;line-height: 30px;}
+       .Account .btn dd{background:#e6e6e6;}
+       .Account .btn dt{background: #ff5000;}
+       .Account .btn dt a{font-size: 14px;color:#fff;}
+       .Account .btn dd a{font-size: 14px;color:#666;}
+   </style>
 </head>
 <body>
 <div id="shortcut">
@@ -89,7 +102,7 @@
                         <li class="cz" style="height: 36px;">
                             <ul class="fd">
                                 <li class="first">&nbsp;</li>
-                                <li><input name="btn" type="submit" value="确定支付" class="zf" /></li>
+                                <li><input name="btn" type="button" value="确定支付" class="zf" /></li>
                             </ul>
                         </li>
                     </ul>
@@ -207,5 +220,55 @@
         </div>
     </div>
 </footer>
+<div class="bj_state">
+    <div class="tc" id="tc_add" style="height:380px;top:50%;margin-top: -170px;">
+        <div class="tc_bt" style="width:628px;">
+            <span style="font-weight: bold;color:#333;">充值信息确认</span>
+            <img src="images/profile_yy.jpg">
+        </div>
+        <div class="Account">
+            <dl>
+                <dt class="fl">充值账号：</dt>
+                <dd class="fl">lyqz365236</dd>
+            </dl>
+            <dl>
+                <dt class="fl">充值金额：</dt>
+                <dd class="fl">1万元</dd>
+            </dl>
+            <dl>
+                <dt class="fl">预计返还余额：</dt>
+                <dd class="fl">1.1万元</dd>
+            </dl>
+            <dl class="cz">
+                <dt class="fl">充值方式：</dt>
+                <dd class="fl">支付宝扫码</dd>
+            </dl>
+            <dl class="btn">
+                <dt class="fl sure"><a href="#">确认充值</a></dt>
+                <dd class="fl off"><a href="#">取消</a></dd>
+            </dl>
+
+        </div>
+
+
+
+        <a class="close" title="关闭">
+            <span></span>
+        </a>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(".zf").click(function () {
+        $(".bj_state").show();
+        $("body").css("overflow","hidden");
+    })
+    $(".close ,.off ,.sure").click(function () {
+        $(".bj_state").hide();
+        $("body").css("overflow","auto");
+    })
+
+</script>
 </body>
 </html>

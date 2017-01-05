@@ -397,10 +397,10 @@
 .commodity_right img{ width:11px; margin-top:15px;}
 .commodity_every{width:180px; height:280px; margin-right:52px;text-align:center;}
 .commodity_every div img{ width:180px;height:180px;}
-.commodity_every div:nth-child(2){width:180px;margin:5px 0; color:#ff5000;font-size: 14px;}
-.commodity_every div:nth-child(3){width:180px;font-size:12px;color:#ff5000; margin-bottom:15px;}
-.commodity_every div:nth-child(4){color:#fff;background-color:#ff5000;width:90px; height:30px; line-height:30px; margin:0 auto;font-size: 12px;}
-.commodity_every div:nth-child(4):hover{background-color: #ca4102;}
+.commodity_every .two{width:180px;margin:5px 0; color:#ff5000;font-size: 14px;}
+.commodity_every .three{width:180px;font-size:12px;color:#ff5000; margin-bottom:15px;}
+.commodity_every .four{color:#fff;background-color:#ff5000;width:90px; height:30px; line-height:30px; margin:0 auto;font-size: 12px;}
+.commodity_every .four:hover{background-color: #ca4102;}
 
 
 
