@@ -488,7 +488,7 @@
 
 /*我的收藏页面样式*/
 .personal_mainR .fav{background: #fff;margin-top: 30px;padding: 13px 20px;height: 1877px;}
-.personal_mainR .fav .fav_top{height: 45px;}
+.personal_mainR .fav .fav_top{height: 45px;border-bottom: 1px solid #e6e6e6;}
 .personal_mainR .fav .fav_top ul{height: 25px;}
 .personal_mainR .fav .fav_top ul li{text-align:center;height:23px; line-height: 23px;width: 63px;float: left;margin-right: 50px;}
 .personal_mainR .fav .fav_top ul .first{border-bottom: 2px solid #ff5000;}
@@ -496,9 +496,26 @@
 .personal_mainR .fav .fav_top ul .last{float:right;margin-right:0;width: 217px;height: 23px;border: 1px solid #ddd;}
 .personal_mainR .fav .fav_top ul .last input{width: 169px;height: 23px;border: none;outline: none;text-indent: 5px;}
 .personal_mainR .fav .fav_top ul .last button{height:23px;background:#f7f7f7;border:none;outline:none;width: 48px;text-align: center;}
-
-
-
+.personal_mainR .fav .fav_bottom{padding-top: 20px;}
+.personal_mainR .fav .fav_bottom ul{height: 296px;margin-bottom: 30px;}
+.personal_mainR .fav .fav_bottom ul li{float: left;width:218px;padding-top:19px;height:275px;margin-right:20px;border:1px solid #e6e6e6;text-align: center;}
+.personal_mainR .fav .fav_bottom ul li a{display: inline-block;}
+.personal_mainR .fav .fav_bottom ul li a img{width:160px;height:160px;}
+.personal_mainR .fav .fav_bottom ul .last{margin-right: 0;}
+.personal_mainR .fav .fav_bottom ul li p{color:#333;line-height: 22px;}
+.personal_mainR .fav .fav_bottom ul li .p1{font-size: 12px;padding-top: 14px;}
+.personal_mainR .fav .fav_bottom ul li .p2{font-size: 14px;padding-bottom: 25px;}
+.personal_mainR .fav .fav_bottom ul li .jr{height: 31px;line-height: 31px;border-top: 1px solid #e6e6e6;}
+.personal_mainR .fav .fav_bottom ul li .jr a{width: 108px;text-align: center;display: block;float: left;font-size: 12px;color:#333;}
+.personal_mainR .fav .fav_bottom ul li .jr a:hover{color:#ff5000;}
+.personal_mainR .fav .fav_bottom ul li .jr .two{color: #ff5000;border-left:1px solid #e6e6e6 }
+.personal_mainR .fav .fav_bottom ul li .jr .two:hover{color:#333;}
+.personal_mainR .fav .fav_bottom .faNy{padding-top: 58px;float: right;}
+.personal_mainR .fav .fav_bottom .faNy li{margin-right:0;padding-top:0;width: 83px;border: 1px solid #ddd;text-align: center; background: #fff;height: 36px;line-height: 36px;}
+.personal_mainR .fav .fav_bottom .faNy li a img{width:9px;height:15px;}
+.personal_mainR .fav .fav_bottom .faNy li a{color: #666;font-size: 14px;}
+.personal_mainR .fav .fav_bottom .faNy .sz{ width: 36px;height: 36px;margin: 0 10px;border: 1px solid #ff5000;}
+.personal_mainR .fav .fav_bottom .faNy .sz a{color:#ff5000;}
 /*地址收货地址弹窗页面样式*/
 .tc{height:511px;width:668px;top:250px;left:24%;background:#fff;border:1px solid #b4b4b4;position: absolute;z-index: 10000;overflow: hidden;}
 .tc .tc_bt{ position:relative;padding:0 20px;height:55px;line-height:55px;font-size:16px;color:#333;}
