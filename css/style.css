@@ -329,6 +329,50 @@
 .personal_mainR .fav .fav_bottom .faNy .sz{ width: 36px;height: 36px;margin: 0 10px;border: 1px solid #ff5000;}
 .personal_mainR .fav .fav_bottom .faNy .sz a{color:#ff5000;}
 
+/*订单中心---我的订单---待付款*/
+.personal_mainR .Pay{margin-top: 50px;height: 465px;background: #fff;padding:13px 20px;}
+.personal_mainR .Pay .Pay_t{height:25px;padding-bottom: 20px;}
+.personal_mainR .Pay .Pay_t li{width:61px;text-align: center;margin-right:34px;float: left;height: 23px;line-height: 23px;}
+.personal_mainR .Pay .Pay_t .last{height:23px;line-height:23px;width: 304px;border:1px solid #ddd;background: #f7f7f7;float:right;margin-right: 0;}
+.personal_mainR .Pay .Pay_t li a{color:#333;font-size: 12px;}
+.personal_mainR .Pay .Pay_t .orange,.personal_mainR .Pay .Pay_t .ho:hover{border-bottom:2px solid #ff5000;}
+.personal_mainR .Pay .Pay_t .last input{height:23px;line-height:23px;width: 168px;text-indent:6px;border: none;outline: none;}
+.personal_mainR .Pay .Pay_t .last button{background:url(../images/fav02.png) no-repeat center;height: 23px;text-align:center;outline:none;width: 48px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;border-bottom-color: transparent;border-top-color: transparent;}
+.personal_mainR .Pay .Pay_t .last span{cursor: pointer;width: 86px;font-size: 12px;display: inline-block;}
+.personal_mainR .Pay .Pay_t .last span img{padding-left: 10px;}
+.personal_mainR .Pay .Pay_t2{margin-bottom: 20px;height:35px;line-height:35px;background: #f5f5f5;}
+.personal_mainR .Pay .Pay_t2 li{float: left;text-align: center;height:35px;line-height:35px;}
+.personal_mainR .Pay .Pay_t2 li a{color:#666;font-size: 12px;}
+.personal_mainR .Pay .Pay_t2 .one{width: 130px;}
+.personal_mainR .Pay .Pay_t2 .one a img{padding-left: 8px;}
+.personal_mainR .Pay .Pay_t2 .two{width:322px;}
+.personal_mainR .Pay .Pay_t2 .tri{width:101px;}
+.personal_mainR .Pay .Pay_t2 .four{width:150px;}
+.personal_mainR .Pay .Pay_t2 .five{width: 94px;}
+.personal_mainR .Pay .Pay_t2 .six{width: 144px;}
+.personal_mainR .Pay .Pay_t3{margin-bottom:20px;border: 1px solid #e5e5e5;}
+.personal_mainR .Pay  .OrderID{padding:0 12px; height: 30px;line-height: 30px;background: #f5f5f5;}
+.personal_mainR .Pay  .OrderID li{padding-right:20px;float: left;color:#666;font-size: 12px;}
+.personal_mainR .Pay  .parts li{text-align:center;font-size: 12px;color:#666;float:left;height:63px;padding:9px 0;border-right: 1px solid #e5e5e5;}
+.personal_mainR .Pay  .parts .as{height:163px;padding: 0;}
+.personal_mainR .Pay  .parts .asB li{padding:9px 0;width: 437px;border: none;height:63px;}
+.personal_mainR .Pay  .parts .one{width: 437px;padding-left: 14px;}
+.personal_mainR .Pay  .parts .two{width:100px;text-align: center;line-height:63px;}
+.personal_mainR .Pay  .parts .tri{width:149px;line-height:63px;}
+.personal_mainR .Pay  .parts .four{width:93px;line-height:63px;}
+.personal_mainR .Pay  .parts .five{width:142px;border: none;}
+.personal_mainR .Pay  .parts .five a{font-size: 12px; color:#666;}
+.personal_mainR .Pay  .parts .cp_img{margin-right:15px;border: 1px solid #eeeeee;width: 60px;height:60px; }
+.personal_mainR .Pay  .parts .cp_img a{display: block;}
+.personal_mainR .Pay  .parts .cp_img a img{width: 60px;height:60px;vertical-align: top;}
+.personal_mainR .Pay  .parts .cp_bt{padding: 9px 0}
+.personal_mainR .Pay  .parts .cp_bt p{text-align:left;line-height: 22px;height: 22px;color:#333;font-size: 12px;}
+.personal_mainR .Pay  .parts .number{color:#333;width: 74px;height: 63px;line-height:63px;text-align: center;}
+.personal_mainR .Pay  .parts .cuts{margin-top: 5px;width: 85px;height: 26px;line-height: 26px;border: 1px solid #ddd;background: #f5f5f5;display: inline-block;}
+.personal_mainR .Pay  .parts .orDe{height: 28px;line-height: 28px;display: inline-block;}
+
+
+
 /*地址收货地址弹窗页面样式*/
 .tc{height:511px;width:668px;top:250px;left:24%;background:#fff;border:1px solid #b4b4b4;position: absolute;z-index: 10000;overflow: hidden;}
 .tc .tc_bt{ position:relative;padding:0 20px;height:55px;line-height:55px;font-size:16px;color:#333;}
