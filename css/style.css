@@ -358,10 +358,11 @@
 .personal_mainR .Pay  .parts .asB li{padding:9px 0;width: 437px;border: none;height:63px;}
 .personal_mainR .Pay  .parts .one{width: 437px;padding-left: 14px;}
 .personal_mainR .Pay  .parts .two{width:100px;text-align: center;line-height:63px;}
+.personal_mainR .Pay  .parts .two span img{padding-left: 9px;}
 .personal_mainR .Pay  .parts .tri{width:149px;line-height:63px;}
 .personal_mainR .Pay  .parts .four{width:93px;line-height:63px;}
 .personal_mainR .Pay  .parts .five{width:142px;border: none;}
-.personal_mainR .Pay  .parts .five a{font-size: 12px; color:#666;}
+.personal_mainR .Pay  .parts .five a,.personal_mainR .Pay  .parts .four a{font-size: 12px; color:#666;}
 .personal_mainR .Pay  .parts .cp_img{margin-right:15px;border: 1px solid #eeeeee;width: 60px;height:60px; }
 .personal_mainR .Pay  .parts .cp_img a{display: block;}
 .personal_mainR .Pay  .parts .cp_img a img{width: 60px;height:60px;vertical-align: top;}
@@ -395,7 +396,7 @@
 #deTa .deTa_t3  .four{width:159px;text-align:center;}
 #deTa .deTa_t3  .five{width:94px;text-align:center;}
 #deTa .deTa_t3  .six{width: 208px;text-align:center;}
-#deTa .deTa_t3  .seven{width:162px;}
+#deTa .deTa_t3  .seven{width:162px;text-align:center;}
 #deTa .deTa_t3 .deTa_tiRb ul li{color:#333;  }
 #deTa .deTa_t3 .deTa_tiRb{padding:20px 30px;background: #fff;height:80px;border-bottom: 2px solid #f5f5f5; }
 #deTa .deTa_t3 .deTa_tiRb .cp_img{height:78px;width:78px;border: 1px solid #eeeeee;}
