@@ -371,6 +371,41 @@
 .personal_mainR .Pay  .parts .cuts{margin-top: 5px;width: 85px;height: 26px;line-height: 26px;border: 1px solid #ddd;background: #f5f5f5;display: inline-block;}
 .personal_mainR .Pay  .parts .orDe{height: 28px;line-height: 28px;display: inline-block;}
 
+/*订单中心---我的订单---待付款---订单详情*/
+#deTa{background: #f5f5f5;padding-bottom: 50px;width: 100%;min-width: 1200px;}
+#deTa .deTa_t{height: 50px;line-height:50px;border-bottom: 4px solid #00afff;}
+#deTa .deTa_t li{float: left;padding: 0 16px;background: url("../images/product_yjt.png") no-repeat right center;}
+#deTa .deTa_t li a{color:#666;font-size: 12px;}
+#deTa .deTa_t2{background: #fff;height:168px;padding: 14px 0}
+#deTa .deTa_t2 dl{float: left;width: 280px;padding: 0 90px 0 30px;}
+#deTa .deTa_t2 dl dt{height: 36px;line-height: 36px;color:#666;font-size: 14px;}
+#deTa .deTa_t2 dl dd{height: 27px;line-height: 27px;font-size: 12px;color:#666;}
+#deTa .deTa_t2 dl dd .dd_l{width:60px;text-align: right;padding-right: 20px;}
+#deTa .deTa_t2 dl dd .dd_r{width: 200px;}
+#deTa .deTa_t2 dl dd .dzf{color:#ff5000;}
+#deTa .deTa_t2 dl dd .pay{display:inline-block;background:#ff5000;border-radius:2px;color:#fff;font-size: 12px;font-weight: bold;width: 80px;height:30px;line-height: 30px;text-align: center;}
+#deTa .deTa_t2 dl .last{height: 30px;margin-top: 6px;}
+#deTa .deTa_t3{margin-top: 30px;background: #fff;}
+#deTa .deTa_t3 .deTa_tir{height: 40px;padding: 0 30px;line-height: 40px;background: #ededed;}
+#deTa .deTa_t3  ul li{float: left;font-size:12px;}
+#deTa .deTa_t3 .deTa_tir ul li{text-align:center;color:#666;  }
+#deTa .deTa_t3  .one{width: 80px;}
+#deTa .deTa_t3  .two{width:270px;padding-left: 20px;}
+#deTa .deTa_t3  .tri{width:147px;text-align:center;}
+#deTa .deTa_t3  .four{width:159px;text-align:center;}
+#deTa .deTa_t3  .five{width:94px;text-align:center;}
+#deTa .deTa_t3  .six{width: 208px;text-align:center;}
+#deTa .deTa_t3  .seven{width:162px;}
+#deTa .deTa_t3 .deTa_tiRb ul li{color:#333;  }
+#deTa .deTa_t3 .deTa_tiRb{padding:20px 30px;background: #fff;height:80px;border-bottom: 2px solid #f5f5f5; }
+#deTa .deTa_t3 .deTa_tiRb .cp_img{height:78px;width:78px;border: 1px solid #eeeeee;}
+#deTa .deTa_t3 .deTa_tiRb .cp_img a{display: block;}
+#deTa .deTa_t3 .deTa_tiRb .cp_img a img{vertical-align: top;height:78px;width: 78px;}
+#deTa .deTa_t3 .deTa_tiRb .two p{font-size: 12px;color:#333;height: 30px;line-height: 30px;}
+#deTa .deTa_t3 .deTa_tiRb .two .p2{color:#666;line-height: 15px;}
+#deTa .deTa_t3 .deTa_tiRb .cs{color:#ff5000;font-weight: bold;}
+
+
 
 
 /*地址收货地址弹窗页面样式*/
