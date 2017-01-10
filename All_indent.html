@@ -11,6 +11,7 @@
         .personal_mainR .Pay  .parts .tri p{line-height: 30px;}
         .personal_mainR .Pay  .parts .tri .p1{border-bottom: 1px solid #ccc;}
         .personal_mainR .Pay  .OrderID  .sc{float: right;}
+        .hov {background: #fff;border: 1px solid #e6e6e6; border-bottom:transparent; }
 
     </style>
 
@@ -114,7 +115,15 @@
                             </li>
                         </ul>
                         <ul class="Pay_t2">
-                            <li class="one"><a href="#">近三个月订单<img src="images/zy_xl.png"> </a></li>
+                            <li class="one">
+                                <a href="#">近三个月订单<img src="images/zy_xl.png"> </a>
+                                <ul>
+                                    <li><a href="#">今年内订单</a></li>
+                                    <li><a href="#">2015年订单</a></li>
+                                    <li><a href="#">2015年以前订单</a></li>
+                                </ul>
+
+                            </li>
                             <li class="two"><a href="all_details.html">订单详情</a></li>
                             <li class="tri"><a href="#">收货人</a></li>
                             <li class="four"><a href="#">金额</a></li>
@@ -311,8 +320,18 @@
         </div>
     </div>
 </div>
-
-
+<script src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.Pay_t2').hover(function() {
+            $('ul', this).slideDown(200);
+            $(this).children('a:first').addClass("hov");
+        }, function() {
+            $('ul', this).slideUp(100);
+            $(this).children('a:first').removeClass("hov");
+        });
+    });
+</script>
 
 </body>
 </html>

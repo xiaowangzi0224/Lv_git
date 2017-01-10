@@ -44,6 +44,20 @@ button,#login_show  .item label{cursor: pointer;}
 .Account .h3{padding-bottom:43px;height: 68px;line-height: 68px;color: #ff5000;text-align: center;font-size: 18px; font-weight: bold;  }
 
 
+.personal_mainR .Pay .Pay_t2 .one ul{
+    position: absolute;
+    display: none;
+    width: 130px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    z-index: 1000;
+    top:35px;
+   border-top: transparent;
+}
+.personal_mainR .Pay .Pay_t2 .one ul li:hover {background: #ff5000;}
+.personal_mainR .Pay .Pay_t2 .one ul li{float:none;height:30px; line-height:30px;}
+.personal_mainR .Pay .Pay_t2 .one ul li a{color: #666;  font-size:12px; }
+.personal_mainR .Pay .Pay_t2 .one ul li a:hover {background: transparent; color: #fff; }
 
 
 /*注册协议*/
