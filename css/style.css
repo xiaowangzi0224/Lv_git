@@ -333,13 +333,18 @@
 .personal_mainR .Pay{margin-top: 50px;height: 465px;background: #fff;padding:13px 20px;}
 .personal_mainR .Pay .Pay_t{height:25px;padding-bottom: 20px;}
 .personal_mainR .Pay .Pay_t li{width:61px;text-align: center;margin-right:34px;float: left;height: 23px;line-height: 23px;}
-.personal_mainR .Pay .Pay_t .last{height:23px;line-height:23px;width: 304px;border:1px solid #ddd;background: #f7f7f7;float:right;margin-right: 0;}
 .personal_mainR .Pay .Pay_t li a{color:#333;font-size: 12px;}
 .personal_mainR .Pay .Pay_t .orange,.personal_mainR .Pay .Pay_t .ho:hover{border-bottom:2px solid #ff5000;}
-.personal_mainR .Pay .Pay_t .last input{height:23px;line-height:23px;width: 168px;text-indent:6px;border: none;outline: none;}
-.personal_mainR .Pay .Pay_t .last button{background:url(../images/fav02.png) no-repeat center;height: 23px;text-align:center;outline:none;width: 48px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;border-bottom-color: transparent;border-top-color: transparent;}
+
+.personal_mainR .Pay .Pay_t .last{position:relative;width: 304px;float:right;margin-right: 0;}
+.personal_mainR .Pay .Pay_t .last input{height:23px;line-height:23px;width: 168px;text-indent:6px;border: 1px solid #ddd;outline: none;}
+
 .personal_mainR .Pay .Pay_t .last span{cursor: pointer;width: 86px;font-size: 12px;display: inline-block;}
 .personal_mainR .Pay .Pay_t .last span img{padding-left: 10px;}
+
+
+
+
 .personal_mainR .Pay .Pay_t2{margin-bottom: 20px;height:35px;line-height:35px;background: #f5f5f5;}
 .personal_mainR .Pay .Pay_t2 li{float: left;text-align: center;height:35px;line-height:35px;}
 .personal_mainR .Pay .Pay_t2 li a{color:#666;font-size: 12px;}
