@@ -10,7 +10,7 @@
         .personal_mainR .Pay  .parts .tri{padding:0px 25px;width: 99px;}
         .personal_mainR .Pay  .parts .tri p{line-height: 30px;}
         .personal_mainR .Pay  .parts .tri .p1{border-bottom: 1px solid #ccc;}
-
+        .hov {background: #fff;border: 1px solid #e6e6e6; border-bottom:transparent;margin: -1px -1px 0;  }
     </style>
 
 </head>
@@ -107,13 +107,23 @@
                             <li class="ho"><a href="Complete.html">已完成</a></li>
                             <li class="ho"><a href="#">订单回收站</a></li>
                             <li class="fr last">
-                                <input class="fl" type="text" placeholder="商品名称/商品编号/订单号">
-                                <button type="button" class="fl"></button>
+                                <input class="fl" id="sSuo" type="text" placeholder="商品名称/商品编号/订单号">
+                                <label for="sSuo">
+                                    <button type="button" class="fl"></button>
+                                </label>
                                 <span>高级搜索<img src="images/zy_xl.png"> </span>
                             </li>
                         </ul>
                         <ul class="Pay_t2">
-                            <li class="one"><a href="#">近三个月订单<img src="images/zy_xl.png"> </a></li>
+                            <li class="one ding">
+                                <a href="#">近三个月订单<img src="images/zy_xl.png"> </a>
+                                <ul>
+                                    <li><a href="#"><img src="images/ggou.png"style="padding-right: 4px;"> 近三个月订单</a></li>
+                                    <li><a href="#">今年内订单</a></li>
+                                    <li><a href="#">2015年订单</a></li>
+                                    <li><a href="#">2015年以前订单</a></li>
+                                </ul>
+                            </li>
                             <li class="two"><a href="con_details.html">订单详情</a></li>
                             <li class="tri"><a href="#">收货人</a></li>
                             <li class="four"><a href="#">金额</a></li>
@@ -332,6 +342,7 @@
 </div>
 
 <script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+<script type="js/indent.js"></script>
 <script type="text/javascript">
     $(".cuts").click(function () {
         $(".bj_state").show();
@@ -341,6 +352,15 @@
         $(".bj_state").hide();
         $("body").css("overflow","auto");
     })
+    $('.ding').hover(function() {
+        $('ul', this).slideDown(200);
+        $(this).addClass("hov");
+        $('.ding a:first').find('img').attr('src','images/zy_xl2.png')
+    }, function() {
+        $('ul', this).slideUp(100);
+        $(this).removeClass("hov");
+        $('.ding a:first').find('img').attr('img','images/zy_xl.png')
+    });
 
 </script>
 </body>

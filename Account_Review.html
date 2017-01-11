@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
         .personal_mainR{background: none;}
+        .hov {background: #fff;border: 1px solid #e6e6e6; border-bottom:transparent;margin: -1px -1px 0;  }
     </style>
 </head>
 <body>
@@ -107,7 +108,15 @@
                             </li>
                         </ul>
                         <ul class="Pay_t2">
-                            <li class="one"><a href="#">近三个月订单<img src="images/zy_xl.png"> </a></li>
+                            <li class="one ding">
+                                <a href="#">近三个月订单<img src="images/zy_xl.png"> </a>
+                                <ul>
+                                    <li><a href="#"><img src="images/ggou.png"style="padding-right: 4px;"> 近三个月订单</a></li>
+                                    <li><a href="#">今年内订单</a></li>
+                                    <li><a href="#">2015年订单</a></li>
+                                    <li><a href="#">2015年以前订单</a></li>
+                                </ul>
+                            </li>
                             <li class="two"><a href="Account_Review3.html">订单详情</a></li>
                             <li class="tri"><a href="#">收货人</a></li>
                             <li class="four"><a href="#">金额</a></li>
@@ -270,5 +279,21 @@
             <p>网站备案/许可证号：京ICP备15038043号 <span>Copyright © 2015 绿优全装建材商城 All Rights Reserved</span></p>
         </div>
     </div>
-</div></body>
+</div>
+<script src="js/jquery-1.11.1.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.ding').hover(function() {
+            $('ul', this).slideDown(200);
+            $(this).addClass("hov");
+            $('.ding a:first').find('img').attr('src','images/zy_xl2.png')
+        }, function() {
+            $('ul', this).slideUp(100);
+            $(this).removeClass("hov");
+            $('.ding a:first').find('img').attr('img','images/zy_xl.png')
+        });
+    });
+</script>
+
+</body>
 </html>

@@ -322,19 +322,21 @@
     </div>
 </div>
 <script src="js/jquery-1.11.1.js"></script>
-<script type="text/javascript">
+<script>
     $(document).ready(function() {
-        $('.ding').hover(function() {
-            $('ul', this).slideDown(200);
-            $(this).addClass("hov");
-            $('.ding a:first').find('img').attr('src','images/zy_xl2.png')
-        }, function() {
-            $('ul', this).slideUp(100);
-            $(this).removeClass("hov");
-            $('.ding a:first').find('img').attr('img','images/zy_xl.png')
-        });
+    $('.ding').hover(function() {
+        $('ul', this).slideDown(200);
+        $(this).addClass("hov");
+        $('.ding a:first').find('img').attr('src','images/zy_xl2.png')
+    }, function() {
+        $('ul', this).slideUp(100);
+        $(this).removeClass("hov");
+        $('.ding a:first').find('img').attr('img','images/zy_xl.png')
     });
+});
 </script>
+
+
 
 </body>
 </html>
