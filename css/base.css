@@ -14,7 +14,7 @@ img {border: none;vertical-align: middle;}
 a:hover{cursor:pointer;}
 .clearfix:after{visibility: hidden; clear: both;display: block;content: ""; height: 0;}
 .clearfix { *zoom: 1}
-.hide{display: none;}
+.hide,.hid{display: none;}
 .show{display:block;}
 
 
