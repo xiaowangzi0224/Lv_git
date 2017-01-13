@@ -6,12 +6,36 @@
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
-        #burSe2 {
-            height: 36px;
-            padding: 35px 0;
-            width: 100%;
-            min-width: 1200px;
-        }
+        #burSe2 {height: 36px;padding: 35px 0;width: 100%;min-width: 1200px;}
+        /*地址弹窗页面样式*/
+        .tc{height:410px;width:690px;border:4px solid #c4c4c4;position: absolute;display: block;overflow: hidden;margin-top:-200px;top:50%;background:#fff;}
+        .tc .tc_bt{ position:relative;padding:0 10px;height:31px;line-height:31px; background: #f3f3f3;font-size:14px;color:#666;}
+        .tc .tc_nr{position: relative;padding: 10px;}
+        .tc .tc_nr .from{position: relative;height:360px;}
+        .tc .tc_nr .from .item{display: block;margin-bottom: 15px;line-height: 25px;}
+        .tc .tc_nr .from .item .label{float: left;height: 18px;line-height: 18px;padding: 4px 0 3px;width: 75px;text-align: right;}
+        .tc .tc_nr .from .item .label_fl{float:left;}
+        .tc .tc_nr .from .item .label_fl .itxt{height: 18px;line-height: 18px;width: 155px;padding: 3px 5px 2px;border: 1px solid #ccc;vertical-align: middle;float: none;}
+        .tc .tc_nr .from .item .label_fl .btn_1{display: inline-block; height: 23px;line-height: 23px;background-color: #f2f2f2;border: 1px solid #ddd;border-radius: 3px;  color: #323333;font-size: 12px;font-weight: 400;padding: 0 14px;cursor: pointer;float: none;background-image: linear-gradient(to top,#f2f2f2 0,#f7f7f7 100%);}
+        .tc .tc_nr .from .item .label_fl .ftx{color:#999999;font-size: 12px;}
+        .tc .tc_nr .from .item .label_fl .itxt2{width:245px;}
+        .tc .tc_nr .from .item .label_fl .qxz{position: relative;z-index:40;height: 26px;margin-right: 6px;}
+        .tc .tc_nr .from .item .label_fl .qxz2{float: left;position: relative;top: 0;height: 23px;background: #fff;border: 1px solid #CECBCE;padding: 0 20px 0 4px;line-height: 23px;overflow: hidden;}
+        .tc .tc_nr .from .item .label_fl .qxz2 b{background-repeat:no-repeat ;display: block;position: absolute;top: 0;right: 0;width: 17px;height: 24px;overflow: hidden;background: url(images/biaost.png);background-position:0 0 ;}
+        .tc .tc_nr .from .item .label_fl .qxz4{display: none;float: left;position: absolute;top: 25px;border: 1px solid #CECBCE;width:420px;padding: 15px;background: #fff;box-shadow: 0 0 5px #ddd;}
+        .tc .tc_nr .from .item .label_fl .qxz5{width: 100%;height: 25px;float: left;border-bottom: 2px solid #edd28b;overflow: visible;cursor: default;}
+        .tc .tc_nr .from .item .label_fl .qxz5 .qxz5_city{height: 25px;background-color: #fff;border: 2px solid #edd28b;border-bottom: 0;padding: 0 20px 0 10px;line-height: 22px;text-decoration: none;color: #000;}
+        .tc .tc_nr .from .item .label_fl .qxz5 a{position: relative;float: left;text-align: center;cursor: pointer;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;margin-right: 3px;}
+        .tc .tc_nr .from .item .label_fl .qxz5 em{font-style: normal;}
+        .tc .tc_nr .from .item .label_fl .qxz5 i{position: absolute;right: 4px;top: 10px;display: block;width: 7px;height: 5px;overflow: hidden;background: url(images/sxt.png) no-repeat;background-position: 0 -28px;  }
+        .tc .tc_nr .from .item .label_fl .qxz5 a em{color: #005aa0;}
+        .tc .tc_nr .from .item .label_fl .qxz6_city .qxz6_city1{padding-top: 5px;}
+        .tc .tc_nr .from .item .label_fl .qxz6_city .qxz6_city1 li{float: left;width: 80px;padding: 0 0 0 15px;clear: none;display: inline;}
+        .tc .tc_nr .from .item .label_fl .qxz6_city .qxz6_city1 li a:hover{background: #005aa0;color:#fff;}
+        .tc .tc_nr .from .item .label_fl .qxz6_city .qxz6_city1 li a{padding: 0 4px;color: #005aa0;display:inline-block;}
+        .from .item:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+        .tc .close{position: absolute;top: 10px;right: 10px;display: block;overflow: hidden;cursor:pointer;width: 13px;height: 13px;font-size: 0;background: url(images/shanc2.png) no-repeat;}
+
     </style>
 </head>
 <body class="bj">
@@ -61,7 +85,7 @@
             <div class="step-tit ">
                 <ul class="step-tit01 clearfix">
                     <li class="fl"><h3>收货人信息</h3></li>
-                    <li class="fr"><a href="#">新增收货地址</a></li>
+                    <li class="fr"><a class="newly" href="#">新增收货地址</a></li>
                 </ul>
                 <div class="step-tit02">
                     <ul class="step_name">
@@ -356,5 +380,148 @@
         </div>
     </div>
 </div>
+<div class="bj_state">
+    <div class="tc">
+        <div class="tc_bt" style="width:670px">
+            <span>新增收货人信息</span>
+        </div>
+        <div class="tc_nr" style="width:670px;height:358px;overflow: hidden;">
+            <div class="from">
+                <div class="item">
+                <span class="label">
+                    <span style="color:red">*</span>
+                    收货人：
+                </span>
+                    <div class="label_fl">
+                        <input type="text" class="itxt">
+                    </div>
+                </div>
+                <div class="item">
+                <span class="label">
+                    <span style="color:red">*</span>
+                    所在地区：
+                </span>
+                    <div class="label_fl">
+                        <div class="qxz">
+                            <div class="qxz2">
+                                <div class="qxz3" style="font-size: 12px;">--请选择--</div>
+                                <b></b>
+                            </div>
+                            <!--弹出内容主体-->
+                            <div class="qxz4" style="left: -45px;">
+                                <!--省市区选择标签-->
+                                <div class="qxz5">
+                                    <a class="qxz5_city" title="请选择" style="max-width: 395px;">
+                                        <em>请选择</em>
+                                        <i></i>
+                                    </a>
+                                </div>
+                                <!--地区内容-->
+                                <div class="qxz6_city">
+                                    <ul class="qxz6_city1">
+                                        <li><a  href="#">北京</a></li>
+                                        <li><a  href="#">上海</a></li>
+                                        <li><a  href="#">天津</a></li>
+                                        <li><a  href="#">重庆</a></li>
+                                        <li><a  href="#">河北</a></li>
+                                        <li><a  href="#">山西</a></li>
+                                        <li><a  href="#">河南</a></li>
+                                        <li><a  href="#">辽宁</a></li>
+                                        <li><a  href="#">吉林</a></li>
+                                        <li><a  href="#">黑龙江</a></li>
+                                        <li><a  href="#">内蒙古</a></li>
+                                        <li><a  href="#">江苏</a></li>
+                                        <li><a  href="#">山东</a></li>
+                                        <li><a  href="#">安徽</a></li>
+                                        <li><a  href="#">浙江</a></li>
+                                        <li><a  href="#">福建</a></li>
+                                        <li><a  href="#">湖北</a></li>
+                                        <li><a  href="#">湖南</a></li>
+                                        <li><a  href="#">广东</a></li>
+                                        <li><a  href="#">广西</a></li>
+                                        <li><a  href="#">江西</a></li>
+                                        <li><a  href="#">四川</a></li>
+                                        <li><a  href="#">海南</a></li>
+                                        <li><a  href="#">贵州</a></li>
+                                        <li><a  href="#">云南</a></li>
+                                        <li><a  href="#">西藏</a></li>
+                                        <li><a  href="#">陕西</a></li>
+                                        <li><a  href="#">甘肃</a></li>
+                                        <li><a  href="#">青海</a></li>
+                                        <li><a  href="#">宁夏</a></li>
+                                        <li><a  href="#">新疆</a></li>
+                                        <li><a  href="#">港澳</a></li>
+                                        <li><a  href="#">台湾</a></li>
+                                        <li><a  href="#">钓鱼岛</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                 <span class="label">
+                    <span style="color:red">*</span>
+                    详细地址：
+                </span>
+                    <div class="label_fl">
+                        <input type="text" class="itxt itxt2">
+                    </div>
+                </div>
+                <div class="item">
+                 <span class="label">
+                    <span style="color:red">*</span>
+                    手机号码：
+                </span>
+                    <div class="label_fl">
+                        <input type="text" class="itxt">
+                    </div>
+                    <div class="label_fl">
+                        <span class="label">固定电话：</span>
+                        <input type="text" class="itxt">
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">邮箱：</span>
+                    <div class="label_fl">
+                        <input type="text" class="itxt">
+                        <div class="ftx">用来接收订单提醒邮件，便于您即时了解订单状态</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">地址别名：</span>
+                    <div class="label_fl">
+                        <input type="text" class="itxt">
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">&nbsp;</span>
+                    <div class="label_fl">
+                        <a href="#" class="btn_1"><span>保存收货人信息</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <a class="close" title="关闭">
+            <span></span>
+        </a>
+    </div>
+</div>
+
+
+<script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(".newly").click(function () {
+        $(".bj_state").show();
+        $("body").css("overflow","hidden");
+    })
+    $(".close").click(function () {
+        $(".bj_state").hide();
+        $("body").css("overflow","auto");
+    })
+
+</script>
 </body>
 </html>
