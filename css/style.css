@@ -681,7 +681,6 @@
 .commodity_tfoot li{float:left;font-size: 14px;color:#666;display:inline-block;}
 
 
-
 .commodity_tfoot .three{width:120px;}
 .commodity_tfoot .four{width:110px;text-align:center;}
 .commodity_tfoot .three:hover{color:#999;}
@@ -711,3 +710,80 @@
 .commodity_every .four:hover{background-color: #ca4102;}
 
 
+/*提交订单成功*/
+#shortcut_main .ddwc1{
+    height:473px;
+    background: #fff;
+}
+#shortcut_main .scut_ddwc2{
+    height:130px;
+
+}
+#shortcut_main .scut_ddwc3{
+    padding:24px 350px 21px;
+}
+#shortcut_main .scut_ddwc3 .img{
+    float: left;
+}
+#shortcut_main .scut_ddwc3 .img img{
+    padding-top: 5px;
+    padding-right: 25px;
+}
+#shortcut_main .scut_ddwc3 li ul li h3{
+    height:47px;
+    line-height: 47px;
+    color:#333;
+    font-size:24px;
+    font-weight: bold;
+    display: inline-block;
+}
+#shortcut_main .scut_ddwc3 li ul li p{
+    height:39px;
+    line-height: 39px;
+    color:#666666;
+    font-size:18px;
+    font-weight: bold;
+    display: inline-block;
+}
+#shortcut_main .scut_ddwc4{
+    height:272px;
+
+    border-bottom: 1px solid #ededed;
+}
+#shortcut_main .scut_ddwc4 .scut_ddwc5{
+    padding:16px 350px 28px;
+}
+#shortcut_main .scut_ddwc4 .scut_ddwc5 dl{
+    height:52px;
+    line-height: 52px;
+    font-size: 24px;
+    color:#333;
+    padding-left: 98px;
+}
+#shortcut_main .scut_ddwc4 .scut_ddwc5 dl dt{
+    width: 120px;
+    text-align: right;
+}
+#shortcut_main .scut_ddwc4 .scut_ddwc5 li{
+    float: left;
+}
+#shortcut_main .scut_ddwc4 .scut_ddwc5 ul{
+    margin-top: 85px;
+}
+
+#shortcut_main .scut_ddwc4 .scut_ddwc5 .first{
+    margin:0 55px;
+
+}
+#shortcut_main .scut_ddwc4 .scut_ddwc5 li input{
+    width:140px;
+    height:38px;
+    line-height:38px;
+    background:#ff5000;
+    color:#fff;
+    font-size: 18px;
+    border:none;
+    cursor:pointer;
+    border-radius: 3px;
+    outline: none;
+}
