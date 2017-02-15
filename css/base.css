@@ -144,7 +144,7 @@ button,#login_show  .item label{cursor: pointer;}
 
 
 /*#footer样式区*/
-.foot {height:315px;width:100%;min-width:1200px;clear: both; background-color: #fff;}
+.foot {height:315px;width:100%;min-width:1200px;clear: both; background: #fff;}
 .foot_nav {padding-top: 34px;}
 .foot_nav ul li {float: left;border-right: 1px solid #e6e6e6;padding: 0 50px;height: 159px;}
 .foot_nav ul .se{border-right-color:transparent;}
