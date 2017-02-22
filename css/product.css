@@ -70,4 +70,7 @@
 #product_browse .product_browse .product_bowr .product_rmAi1 li a:hover{color: #fff;}
 #product_browse .product_browse .pro_mous{position: absolute;left: 250px;top: 60px;width: 950px;height:1289px;background: url(../images/zy_t4.jpg)}
 
-
+/*订单中心---我的订单*/
+.personal_mainR .Pay  .parts .tri{padding:0px 25px;width: 99px;}
+.personal_mainR .Pay  .parts .tri p{line-height: 30px;}
+.personal_mainR .Pay  .parts .tri .p1{border-bottom: 1px solid #ccc;}

@@ -666,6 +666,7 @@
 .commodity_tbody .three div:last-child{width:135px;float:left;line-height: 19px}
 .commodity_tbody .four{width:145px;text-align:center;font-size: 14px;color: #333;}
 .commodity_tbody .five{width: 118px;padding: 0 21px;}
+.commodity_tbody .five input{width: 45px;height: 28px;text-align: center;float: left;}
 .commodity_tbody .five span{height:30px;line-height:30px;float:left;text-align:center;border:1px solid #ccc;display:inline-block;}
 .commodity_tbody .five .one{width:25px; background-color: #f1f1f1;cursor:pointer;}
 .commodity_tbody .five .one:hover{background-color: #d8d6d6;}

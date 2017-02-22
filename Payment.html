@@ -5,9 +5,12 @@
     <title>待付款</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/product.css">
     <style>
         .personal_mainR{background: none;}
         .hov {background: #fff;border: 1px solid #e6e6e6; border-bottom:transparent;margin: -1px -1px 0;  }
+        .personal_mainR .Pay .Pay_t .last .adds{ border-bottom:transparent;background-color: #fff;}
+
     </style>
 </head>
 <body>
@@ -102,9 +105,54 @@
                             <li class="ho"><a href="Complete.html">已完成</a></li>
                             <li class="ho"><a href="#">订单回收站</a></li>
                             <li class="fr last">
-                                <input class="fl" type="text" placeholder="商品名称/商品编号/订单号">
-                                <button type="button" class="fl"></button>
-                                <span>高级搜索<img src="images/zy_xl.png"> </span>
+                                <input class="lt sSuo" id="sSuo" type="text" placeholder="商品名称/商品编号/订单号">
+                                <label class="lt sSk" for="sSuo"><img src="images/fangdajing.png" alt=""></label>
+                                <div class="search">
+                                    <span class="searchChild">高级搜索<img class="gt img1" src="images/zy_xl.png" alt=""><img class="img2 gt hid" src="images/zy_xl2.png" alt=""></span>
+
+                                    <div class="complete-modalpanel hid parent-div">
+                                        <div class="complete-datemodal lt">
+                                            <div class="lt  date">成交日期：</div>
+                                            <div class="lt complete-datemodal2">
+                                                <input type="text" placeholder="年/月/日">
+                                                <img class="complete-modalimg1" src="images/zy_xl.png" alt="">
+                                                <span style="display: inline-block;"> 至 </span>
+                                                <input type="text" placeholder="年/月/日">
+                                                <img class="complete-modalimg2" src="images/zy_xl.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="complete-addressmodal lt">
+                                            <div class="lt date">收货地址：</div>
+                                            <div class="lt">
+                                                <div class="complete-address">
+                                                    <img class="one" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                                <div class="complete-address">
+                                                    <img class="one" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                                <div class="complete-address">
+                                                    <img class="one hid" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                                <div class="complete-address">
+                                                    <img class="one hid" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                                <div class="complete-address">
+                                                    <img class="one hid" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                         <ul class="Pay_t2">
@@ -315,6 +363,18 @@
             $('ul', this).slideUp(100);
             $(this).removeClass("hov");
             $('.ding a:first').find('img').attr('img','images/zy_xl.png')
+        });
+        $(".search").mouseover(function(){
+            $(".searchChild").addClass("adds");
+            $(".img1").hide();
+            $(".img2").show();
+            $(".parent-div").show();
+        });
+        $(".search").mouseout(function(){
+            $(".searchChild").removeClass("adds");
+            $(".img1").show();
+            $(".img2").hide();
+            $(".parent-div").hide();
         });
     });
 </script>

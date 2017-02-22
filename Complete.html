@@ -5,13 +5,13 @@
     <title>已完成</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/product.css">
     <style>
-        .personal_mainR{background: none;}
-        .personal_mainR .Pay  .parts .tri{padding:0px 25px;width: 99px;}
-        .personal_mainR .Pay  .parts .tri p{line-height: 30px;}
-        .personal_mainR .Pay  .parts .tri .p1{border-bottom: 1px solid #ccc;}
-        .personal_mainR .Pay  .OrderID  .sc{float: right;}
+        .personal_mainR {background: none;}
+        .personal_mainR .Pay .OrderID .sc {float: right;}
         .hov {background: #fff;border: 1px solid #e6e6e6; border-bottom:transparent;margin: -1px -1px 0;  }
+        .personal_mainR .Pay .Pay_t .last .adds{ border-bottom:transparent;background-color: #fff;}
+
     </style>
 
 </head>
@@ -38,7 +38,8 @@
                 <li class="spacer"></li>
                 <li><a href="#"><img class="xwx" src="images/zy_xsj.png"/> 手机客户端</a></li>
                 <li class="spacer"></li>
-                <li><a href="#"><img class="xwx" src="images/zy_xwx.png"/> 关于绿优 <img class="xl" src="images/zy_xl.png"/></a></li>
+                <li><a href="#"><img class="xwx" src="images/zy_xwx.png"/> 关于绿优 <img class="xl" src="images/zy_xl.png"/></a>
+                </li>
             </ul>
             <div class="clear"></div>
         </div>
@@ -68,7 +69,7 @@
             <div class="personal_mainL fl">
                 <dl>
                     <dt><a href="#">订单中心</a></dt>
-                    <dd  class="f5"><a href="All_indent.html">我的订单</a></dd>
+                    <dd class="f5"><a href="All_indent.html">我的订单</a></dd>
                     <dd><a href="#">评价</a></dd>
                 </dl>
                 <dl>
@@ -107,16 +108,71 @@
                             <li class="orange"><a href="#">已完成</a></li>
                             <li class="ho"><a href="#">订单回收站</a></li>
                             <li class="fr last">
-                                <input class="fl" type="text" placeholder="商品名称/商品编号/订单号">
-                                <button type="button" class="fl"></button>
-                                <span>高级搜索<img src="images/zy_xl.png"> </span>
+                                <input class="lt sSuo" id="sSuo" type="text" placeholder="商品名称/商品编号/订单号">
+                                <label class="lt sSk" for="sSuo"><img src="images/fangdajing.png" alt=""></label>
+
+                                <div class="search">
+                                    <span class="searchChild">高级搜索<img class="gt img1" src="images/zy_xl.png"
+                                                                       alt=""><img class="img2 gt hid"
+                                                                                   src="images/zy_xl2.png"
+                                                                                   alt=""></span>
+
+                                    <div class="complete-modalpanel hid parent-div">
+                                        <div class="complete-datemodal lt">
+                                            <div class="lt  date">成交日期：</div>
+                                            <div class="lt complete-datemodal2">
+                                                <input type="text" placeholder="年/月/日">
+                                                <img class="complete-modalimg1" src="images/zy_xl.png" alt="">
+                                                <span style="display: inline-block;"> 至 </span>
+                                                <input type="text" placeholder="年/月/日">
+                                                <img class="complete-modalimg2" src="images/zy_xl.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="complete-addressmodal lt">
+                                            <div class="lt date">收货地址：</div>
+                                            <div class="lt">
+                                                <div class="complete-address">
+                                                    <img class="one" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                                <div class="complete-address">
+                                                    <img class="one" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                                <div class="complete-address">
+                                                    <img class="one hid" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                                <div class="complete-address">
+                                                    <img class="one hid" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                                <div class="complete-address">
+                                                    <img class="one hid" src="images/true.png" alt="">
+                                                    <img class="two lt" src="images/border.png" alt="">
+
+                                                    <div class="lt">北京 北京市大兴区亦庄经济开发区地盛南街甲一号 中电金场</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                         <ul class="Pay_t2">
                             <li class="one ding">
                                 <a href="#">近三个月订单<img src="images/zy_xl.png"> </a>
                                 <ul>
-                                    <li><a href="#"><img src="images/ggou.png"style="padding-right: 4px;"> 近三个月订单</a></li>
+                                    <li><a href="#"><img src="images/ggou.png" style="padding-right: 4px;"> 近三个月订单</a>
+                                    </li>
                                     <li><a href="#">今年内订单</a></li>
                                     <li><a href="#">2015年订单</a></li>
                                     <li><a href="#">2015年以前订单</a></li>
@@ -141,7 +197,8 @@
                                         <a href="#"><img src="images/cp2.jpg"></a>
                                     </div>
                                     <div class="cp_bt fl">
-                                        <p>昆仑塑铜线BV4平方    蓝色</p>
+                                        <p>昆仑塑铜线BV4平方 蓝色</p>
+
                                         <p>100米/盘</p>
                                     </div>
                                     <div class="number fr">
@@ -154,13 +211,15 @@
                                 </li>
                                 <li class="tri" style="height: 81px;">
                                     <p class="p1"> 总额￥299.00</p>
+
                                     <p>在线支付</p>
 
                                 </li>
                                 <li class="four">已完成</li>
                                 <li class="five">
                                     <a class="orDe" href="all_details.html">订单详情</a><br>
-                                    <a class="cuts" href="#"><img src="images/all_sd.png" style="padding-right: 9px;"> 再次购买</a>
+                                    <a class="cuts" href="#"><img src="images/all_sd.png" style="padding-right: 9px;">
+                                        再次购买</a>
                                 </li>
 
                             </ul>
@@ -180,7 +239,8 @@
                                                 <a href="#"><img src="images/cp2.jpg"></a>
                                             </div>
                                             <div class="cp_bt fl">
-                                                <p>昆仑塑铜线BV4平方    蓝色</p>
+                                                <p>昆仑塑铜线BV4平方 蓝色</p>
+
                                                 <p>100米/盘</p>
                                             </div>
                                             <div class="number fr">
@@ -192,7 +252,8 @@
                                                 <a href="#"><img src="images/cp2.jpg"></a>
                                             </div>
                                             <div class="cp_bt fl">
-                                                <p>昆仑塑铜线BV4平方    蓝色</p>
+                                                <p>昆仑塑铜线BV4平方 蓝色</p>
+
                                                 <p>100米/盘</p>
                                             </div>
                                             <div class="number fr">
@@ -208,12 +269,14 @@
                                 </li>
                                 <li class="as tri">
                                     <p class="p1"> 总额￥299.00</p>
+
                                     <p>在线支付</p>
                                 </li>
                                 <li class="as four">已完成</li>
                                 <li class="five">
                                     <a class="orDe" href="all_details.html">订单详情</a><br>
-                                    <a class="cuts" href="#"><img src="images/all_sd.png"  style="padding-right: 9px;"> 再次购买</a>
+                                    <a class="cuts" href="#"><img src="images/all_sd.png" style="padding-right: 9px;">
+                                        再次购买</a>
 
                                 </li>
                             </ul>
@@ -320,19 +383,30 @@
 </div>
 <script src="js/jquery-1.11.1.js"></script>
 <script>
-    $(document).ready(function() {
-        $('.ding').hover(function() {
+    $(document).ready(function () {
+        $('.ding').hover(function () {
             $('ul', this).slideDown(200);
             $(this).addClass("hov");
-            $('.ding a:first').find('img').attr('src','images/zy_xl2.png')
-        }, function() {
+            $('.ding a:first').find('img').attr('src', 'images/zy_xl2.png')
+        }, function () {
             $('ul', this).slideUp(100);
             $(this).removeClass("hov");
-            $('.ding a:first').find('img').attr('img','images/zy_xl.png')
+            $('.ding a:first').find('img').attr('img', 'images/zy_xl.png')
+        });
+        $(".search").mouseover(function(){
+            $(".searchChild").addClass("adds");
+            $(".img1").hide();
+            $(".img2").show();
+            $(".parent-div").show();
+        });
+        $(".search").mouseout(function(){
+            $(".searchChild").removeClass("adds");
+            $(".img1").show();
+            $(".img2").hide();
+            $(".parent-div").hide();
         });
     });
 </script>
-
 
 
 </body>
